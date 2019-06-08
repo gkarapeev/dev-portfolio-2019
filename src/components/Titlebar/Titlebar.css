@@ -1,0 +1,7 @@
+.Titlebar {
+  height: 120px;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  align-items: flex-end;
+}
