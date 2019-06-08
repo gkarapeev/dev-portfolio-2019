@@ -1,7 +1,9 @@
 .footer {
   background-color: #323232;
   height: 80px;
+  clear: both;
   position: relative;
+  margin-top: -80px;
 }
 .footer::before {
   content: '';
