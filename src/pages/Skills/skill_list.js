@@ -4,7 +4,7 @@ import rest_snippet from '../../code_snippets/rest_api'
 const skillList = [
   {
     title: 'HTML5, CSS3, All the basics',
-    snippet: 'the HTML code'
+    snippet: 'CSS sprites'
   },
   {
     title: 'JavaScript In-Depth',
@@ -20,7 +20,7 @@ const skillList = [
   },
   {
     title: 'Git',
-    snippet: 'lol'
+    snippet: 'Proper commit messages'
   },
   {
     title: 'SASS',

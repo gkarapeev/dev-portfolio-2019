@@ -11,17 +11,15 @@ const Skills = (props) => {
     <Fragment>
       <Titlebar location={props.location} />
       <PageContent>
-        <div className='exPanelContainer'>
-          {skillList.map((skill, skillIndex) => {
-            return (
-              <ExpansionPanel
-                title={skill.title}
-                snippet={skill.snippet}
-                key={skillIndex}
-              />
-            )
-          })}
-        </div>
+        {skillList.map((skill, skillIndex) => {
+          return (
+            <ExpansionPanel
+              title={skill.title}
+              snippet={skill.snippet}
+              key={skillIndex}
+            />
+          )
+        })}
       </PageContent>
 
     </Fragment>

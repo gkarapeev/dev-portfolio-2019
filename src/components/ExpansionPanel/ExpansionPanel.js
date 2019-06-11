@@ -1,6 +1,7 @@
 import React from 'react'
 import './ExpansionPanel.css'
 import triangle from '../../img/triangle.svg'
+import Paper from '../Paper/Paper'
  
 import { Light as SyntaxHighlighter } from 'react-syntax-highlighter';
 import js from 'react-syntax-highlighter/dist/esm/languages/hljs/javascript';
@@ -21,7 +22,7 @@ class ExpansionPanel extends React.Component {
 
   render() {
     return (
-      <div className={'exPanel'}>
+      <Paper bg='white' classes={'exPanel'}>
         <h3 onClick={this.handleExpandToggle}>{this.props.title}</h3>
         <img src={triangle} alt='expand' className='triangle' onClick={this.handleExpandToggle}/>
         {this.state.expanded ?
@@ -35,7 +36,7 @@ class ExpansionPanel extends React.Component {
           </div>
           : null
         }
-      </div>
+      </Paper>
     )
   }
 };
