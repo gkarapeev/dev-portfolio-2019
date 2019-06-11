@@ -1,3 +1,72 @@
-.test {
-  height: 400px;
+.aboutCard {
+  padding: 2em;
+  margin-bottom: 3em;
+}
+.aboutCard p {
+  line-height: 1.4em;
+}
+.hello {
+  display: flex;
+  align-items: flex-start;
+}
+.bubbleCont {
+  position: relative;
+  margin-bottom: 3em;
+}
+.hello h2 {
+  color: white;
+  position: absolute;
+  top: 19px;
+  left: 65px;
+}
+.Georgi {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  width: 80px;
+}
+.contactCard {
+  display: flex;
+  justify-content: space-between;
+  padding: 3em;
+  flex-direction: row;
+  align-items: stretch;
+}
+.contactRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.2em;
+}
+.contactRow:last-child {
+  margin-bottom: 0;
+}
+.iconBG {
+  width: 42px;
+  background-color: #323232;
+  border-radius: 50%;
+  padding-top: 42px;
+  position: relative;
+  margin-right: 1.2em;
+}
+.iconBG img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.cvBox {
+  width: 300px;
+  border-left: 1px solid #0000002f;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+.cv {
+  border: 1px solid grey;
+  border-radius: 6px;
+  width: 180px;
+  transform: translateX(1.5em);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00000031;
 }
