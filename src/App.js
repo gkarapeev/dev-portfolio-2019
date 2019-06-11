@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
-import { Router, Route, Switch } from 'react-router-dom'
+import { Router, Route, Redirect, Switch } from 'react-router-dom'
 import { createBrowserHistory } from 'history'
 import routes from './routes'
 
@@ -59,6 +59,7 @@ class App extends React.Component {
                   <Route path={route.path} component={route.component} key={index} />
                 )
               })}
+              <Redirect from="/" to="/skills" />
             </Switch>
           </div>
         </div>

@@ -1,14 +1,23 @@
-.headerAccent {
-  height: 6px;
-  background-color: #21C3CF;
-}
 .headerBG {
   height: 60px;
+  margin-top: 6px;
   background-color: #323232;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  position: relative;
 }
+
+.headerBG::before {
+  content: '';
+  height: 6px;
+  background-color: #21C3CF;
+  position: absolute;
+  width: 100%;
+  top: -6px;
+}
+
 .headerContent {
   width: 100%;
   height: 100%;
@@ -17,12 +26,24 @@
   align-items: center;
   justify-content: space-between;
 }
-#brand {
+
+#brandLink {
+  display: flex;
+  align-items: center;
   height: 50%;
 }
-nav {
+
+#brand {
   height: 100%;
 }
+
+nav {
+  height: 100%;
+  font-family: din-next-light;
+  font-weight: 400;
+  font-size: 20px;
+}
+
 nav a {
   color: white;
   text-decoration: none;
@@ -32,6 +53,7 @@ nav a {
   display: flex;
   align-items: center;
 }
+
 nav ul {
   height: 100%;
   display: flex;
@@ -40,15 +62,19 @@ nav ul {
   margin-block-end: 0;
   padding-inline-start: 0;
 }
+
 nav ul li {
   height: 100%;
 }
+
 nav ul li:hover {
   background-color: #3d3d3d;
 }
+
 nav ul li span {
   position: relative;
 }
+
 .activeNav span::after {
   content: '';
   background-color: #21C3CF;

@@ -1,16 +1,18 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
-import routes from '../../routes';
+import { Link, NavLink } from 'react-router-dom'
+import routes from '../../routes'
 import './Header.css'
+import logo from '../../img/logo.svg'
 
 const Header = (props) => {
   return (
     <div>
       <header>
-        <div className="headerAccent"></div>
         <div className="headerBG">
           <div className="headerContent">
-            <img id="brand" src="logo.svg" alt="brand" />
+            <Link to={'/'} id="brandLink">
+              <img id="brand" src={logo} alt="brand" />
+            </Link>
             <nav>
               <ul>
                 {routes.map((route, linkIndex) => {

@@ -15,11 +15,6 @@ const routes = [
     component: Certificates
   },
   {
-    path: "/examples",
-    name: "Examples",
-    component: Examples
-  },
-  {
     path: "/contact",
     name: "Contact",
     component: Contact
