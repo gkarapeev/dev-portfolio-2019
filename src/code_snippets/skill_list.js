@@ -1,5 +1,5 @@
-import jwt_snippet from '../../code_snippets/jwt_auth'
-import rest_snippet from '../../code_snippets/rest_api'
+import jwt_snippet from './jwt_auth'
+import rest_snippet from './rest_api'
 
 const skillList = [
   {

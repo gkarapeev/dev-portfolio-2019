@@ -6,9 +6,9 @@ import Paper from '../Paper/Paper'
 const Document = (props) => {
   return(
     <Paper bg={props.bg} classes={'doc'}>
-      <a href={props.pdf} target='_blank' rel='noopener noreferrer'>
+      <a href={props.address} target={props.target} rel='noopener noreferrer'>
         <div className='docMask'>
-          <span>Open in new tab</span>
+          <span>{props.hoverMsg}</span>
         </div>
         <img src={props.content} alt={props.alt} className='docImg'/>
       </a>

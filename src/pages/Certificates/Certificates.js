@@ -19,9 +19,9 @@ const Skills = (props) => {
       <Titlebar location={props.location} />
       <PageContent>
         <div className='certificates'>
-          <Document bg='beige' content={Degree} pdf={Degree_PDF} alt='Degree'/>
-          <Document bg='white' content={JS_Certificate} pdf={JS_Certificate_PDF} alt='JS_Certificate'/>
-          <Document bg='purple' content={UX_Certificate} pdf={UX_Certificate_PDF} alt='UX_Certificate'/>
+          <Document bg='beige' content={Degree} target='_blank' address={Degree_PDF} alt='Degree' hoverMsg='Open in new tab'/>
+          <Document bg='white' content={JS_Certificate} target='_blank' address={JS_Certificate_PDF} alt='JS_Certificate' hoverMsg='Open in new tab'/>
+          <Document bg='purple' content={UX_Certificate} target='_blank' address={UX_Certificate_PDF} alt='UX_Certificate' hoverMsg='Open in new tab'/>
         </div>
       </PageContent>
     </Fragment>
