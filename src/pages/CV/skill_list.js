@@ -11,6 +11,9 @@ const skillList = [
     snippet: 'js'
   },
   {
+    title: 'CRUD Operations'
+  },
+  {
     title: 'Debugging',
     snippet: 'lol'
   },
@@ -20,7 +23,7 @@ const skillList = [
   },
   {
     title: 'Git',
-    snippet: 'Proper commit messages'
+    snippet: 'branching, rebasing, resolving merge conflicts, proper commit messages'
   },
   {
     title: 'SASS',

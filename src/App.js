@@ -13,15 +13,15 @@ class App extends React.Component {
   state = {
     navLinks: [
       {
-        name: 'Skills',
+        name: 'Portfolio',
         active: true
       },
       {
-        name: 'Certificates',
+        name: 'CV',
         active: false
       },
       {
-        name: 'Examples',
+        name: 'Certificates',
         active: false
       },
       {
@@ -59,7 +59,7 @@ class App extends React.Component {
                   <Route path={route.path} component={route.component} key={index} />
                 )
               })}
-              <Redirect from="/" to="/skills" />
+              <Redirect from="/" to="/portfolio" />
             </Switch>
           </div>
         </div>

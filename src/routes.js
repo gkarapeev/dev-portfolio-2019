@@ -1,13 +1,18 @@
-import Skills from './pages/Skills/Skills'
+import CV from './pages/CV/cv'
 import Certificates from './pages/Certificates/Certificates'
-import Examples from './pages/Examples/Examples'
-import Contact from './pages/Contact/Contact'
+import Portfolio from './pages/Portfolio/Portfolio'
+import About from './pages/About/About'
 
 const routes = [
   {
-    path: "/skills",
-    name: "Skills",
-    component: Skills
+    path: "/portfolio",
+    name: "Portfolio",
+    component: Portfolio
+  },
+  {
+    path: "/cv",
+    name: "CV",
+    component: CV
   },
   {
     path: "/certificates",
@@ -15,10 +20,10 @@ const routes = [
     component: Certificates
   },
   {
-    path: "/contact",
-    name: "Contact",
-    component: Contact
-  },
+    path: "/about",
+    name: "About",
+    component: About
+  }
 ];
 
 export default routes;

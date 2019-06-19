@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import Titlebar from '../../components/Titlebar/Titlebar'
 import PageContent from '../../components/PageContent/PageContent'
 import Paper from '../../components/Paper/Paper'
-import './Contact.css'
+import './About.css'
 
 import Georgi from '../../img/georgi-karapeev.jpg'
 import Bubble from '../../img/bubble.svg'
