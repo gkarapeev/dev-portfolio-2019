@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react'
 import Titlebar from '../../components/Titlebar/Titlebar'
 import PageContent from '../../components/PageContent/PageContent'
-import Document from '../../components/Document/Document'
+import DocumentLink from '../../components/Document/DocumentLink'
 import './Portfolio.css'
-import Projects from './projects/project_list'
+import Projects from '../../projects/project_list'
 
 const Skills = (props) => {
   return (
@@ -13,7 +13,7 @@ const Skills = (props) => {
         <div className='projectContainer'>
           {Projects.map((proj, index) => {
             return (
-              <Document bg='white' content={proj.thumb} address='#' target='_self' alt={proj.title} key={index} hoverMsg='View Project'/>
+              <DocumentLink bg='white' content={proj.thumb} path={proj.path} alt={proj.title} key={index} hoverMsg='View Project'/>
             )
           })}
         </div>

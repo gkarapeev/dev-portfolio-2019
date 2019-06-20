@@ -5,8 +5,8 @@ import Footer from './components/Footer/Footer'
 import { Router, Route, Redirect, Switch } from 'react-router-dom'
 import { createBrowserHistory } from 'history'
 import routes from './routes'
-import Projects from './pages/Portfolio/projects/project_list'
-import ProjectPage from './pages/Portfolio/ProjectPage'
+import Projects from './projects/project_list'
+import ProjectPage from './pages/Project/ProjectPage'
 
 const projectRoutes = Projects.map(project => {
   return (
@@ -44,22 +44,6 @@ class App extends React.Component {
       }
     ]
   }
-
-  // handleLinkClick = (linkIndex) => {
-  //   const links = [...this.state.navLinks]
-
-  //   const newLinks = links.map((link, index) => {
-  //     return (
-  //       {
-  //         name: link.name,
-  //         active: index === linkIndex
-  //       }
-  //     )
-  //   })
-
-  //   // this.setState({ navLinks: newLinks })
-
-  // }
 
   render() {
     return (
