@@ -1,10 +1,5 @@
-.projectContainer::after {
-  content: '';
-  width: 31.5%;
-}
 .docLinkImg {
   width: 100%;
-}
-.docLink {
-  margin-bottom: 2%;
+  vertical-align: top;
+  border-radius: 3px;
 }

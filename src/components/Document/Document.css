@@ -1,35 +1,5 @@
 .doc {
   padding: 6px;
-  height: 350px;
-  position: relative;
-}
-.docMask {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  border-radius: 8px;
-  transition: all 0.25s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.docMask span {
-  opacity: 0;
-}
-.doc a,
-.doc a:visited,
-.doc a:hover {
-  color: white;
-}
-.docMask:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-.docMask:hover > span {
-  opacity: 1;
-  background-color: rgba(0, 0, 0, 0.24);
-  box-shadow: 0 0 70px 20px rgba(0, 0, 0, 0.466);
 }
 .docImg {
   height: 100%;

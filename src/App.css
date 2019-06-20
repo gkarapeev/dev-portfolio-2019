@@ -4,6 +4,7 @@
   padding-bottom: 80px;
   flex-grow: 1;
 }
+
 .mainCont {
   display: flex;
   align-items: center;
@@ -11,11 +12,13 @@
   flex-direction: column;
   margin-bottom: 3em;
 }
+
 h2 {
   font-size: 25px;
   margin: 0;
   color: #323232;
 }
+
 h3 {
   margin: 0;
   color: #323232;

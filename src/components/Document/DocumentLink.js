@@ -2,18 +2,21 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './DocumentLink.css'
 import Paper from '../Paper/Paper'
+import Mask from '../Mask/Mask'
+import '../../components/Mask/Mask.css'
 
 
 const DocumentLink = (props) => {
-  return(
-    <Paper bg={props.bg} classes={'doc docLink'}>
-      <Link to={props.path}>
-        <div className='docMask'>
-          <span>{props.hoverMsg}</span>
-        </div>
+  const docLinkClasses = ['doc']
+  const classes = props.classes ? props.classes.concat(docLinkClasses) : docLinkClasses
+
+  return (
+    <Link to={props.path} className='masked'>
+      <Paper bg={props.bg} classes={classes}>
         <img src={props.content} alt={props.alt} className='docLinkImg'/>
-      </Link>
-    </Paper>
+      </Paper>
+      <Mask hoverMsg={props.hoverMsg} />
+    </Link>
   )
 };
 
