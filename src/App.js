@@ -22,29 +22,26 @@ const allRoutes = routes.concat(projectRoutes)
 
 const hist = createBrowserHistory()
 
-class App extends React.Component {
-
-  render() {
-    return (
-      <Router history={hist}>
-        <div className="App">
-          <Header links={routes} />
-          <div className="mainCont">
-            <Switch>
-              {allRoutes.map((route, index) => {
-                console.log(route.name)
-                return (
-                  <Route path={route.path} exact render={() => <route.component name={route.name} />} key={index} />
-                )
-              })}
-              <Redirect from="/" to="/portfolio" />
-            </Switch>
-          </div>
+const App = () => {
+  return (
+    <Router history={hist}>
+      <div className="App">
+        <Header links={routes} />
+        <div className="mainCont">
+          <Switch>
+            {allRoutes.map((route, index) => {
+              console.log(route.name)
+              return (
+                <Route path={route.path} exact render={() => <route.component name={route.name} />} key={index} />
+              )
+            })}
+            <Redirect from="/" to="/portfolio" />
+          </Switch>
         </div>
-        <Footer />
-      </Router>
-    );
-  }
+      </div>
+      <Footer />
+    </Router>
+  )
 }
 
 export default App;
