@@ -3,41 +3,39 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#3E4041;}
-	.st1{opacity:0.102;fill:#FFFFFF;enable-background:new    ;}
-	.st2{fill:#FFFFFF;}
-	.st3{font-family:'Arial-Black';}
-	.st4{font-size:60.2279px;}
-	.st5{letter-spacing:2;}
-	.st6{letter-spacing:4;}
-	.st7{letter-spacing:1;}
+	.st0{fill:#FCA326;}
+	.st1{fill:#FC6D26;}
+	.st2{fill:#E24329;}
 </style>
-<polyline class="st0" points="0,512 512,512 512,0 0,0 0,512 "/>
-<g>
-	<polygon class="st1" points="339.6,168.9 288.1,304.6 188.7,170.3 139.5,300.5 345.4,512 512,512 512,355.3 	"/>
+<g id="_x31_44-gitlab">
 	<g>
-		<g>
-			<path class="st2" d="M153,253l107,139.1l-117.3-87c-3.2-2.4-4.6-6.6-3.4-10.4L153,253L153,253z"/>
-		</g>
-		<g>
-			<polygon class="st2" points="215.4,253 260.1,392.1 260,392.1 153,253 153.1,253 			"/>
-		</g>
-		<g>
-			<polygon class="st2" points="304.7,253 260.1,392.1 260.1,392.1 215.4,253 215.5,253 304.6,253 			"/>
-		</g>
-		<g>
-			<polygon class="st2" points="367.1,253 260.1,392.1 304.7,253 367.1,253 			"/>
-		</g>
-		<g>
-			<path class="st2" d="M380.7,294.6c1.2,3.8-0.1,8-3.4,10.4l-117.3,87l107-139.1l0,0L380.7,294.6z"/>
-		</g>
-		<g>
-			<path class="st2" d="M340.3,170.3l26.7,82.7h-62.4h0l26.8-82.7C332.9,166.1,338.9,166.1,340.3,170.3z"/>
-		</g>
-		<g>
-			<path class="st2" d="M215.5,253L215.5,253h-62.4l26.7-82.7c1.5-4.2,7.5-4.2,8.9,0C188.7,170.3,215.4,253,215.5,253z"/>
+		<g id="XMLID_6_">
+			<g>
+				<g>
+					<path class="st0" d="M39.5,202.2l216.4,281.3L18.7,307.4c-6.5-4.9-9.3-13.4-6.8-21.1L39.5,202.2L39.5,202.2z"/>
+				</g>
+				<g>
+					<polygon class="st1" points="165.8,202.2 256,483.5 255.9,483.5 39.5,202.2 39.6,202.2 					"/>
+				</g>
+				<g>
+					<polygon class="st2" points="346.3,202.2 256,483.5 256,483.5 165.8,202.2 165.9,202.2 346.2,202.2 					"/>
+				</g>
+				<g>
+					<polygon class="st1" points="472.6,202.2 256,483.5 346.3,202.2 472.5,202.2 					"/>
+				</g>
+				<g>
+					<path class="st0" d="M500.1,286.4c2.4,7.7-0.3,16.2-6.9,21.1L256,483.5l216.5-281.3l0,0L500.1,286.4z"/>
+				</g>
+				<g>
+					<path class="st2" d="M418.4,34.9l54.1,167.3H346.3h-0.1l54.2-167.3C403.4,26.4,415.4,26.4,418.4,34.9z"/>
+				</g>
+				<g>
+					<path class="st2" d="M165.9,202.2L165.9,202.2H39.6L93.6,34.9c3.1-8.5,15.1-8.5,18.1,0C111.7,34.9,165.8,202.2,165.9,202.2z"/>
+				</g>
+			</g>
 		</g>
 	</g>
 </g>
-<text transform="matrix(1 0 0 1 125.0348 153.018)"><tspan x="0" y="0" class="st2 st3 st4">G</tspan><tspan x="50.2" y="0" class="st2 st3 st4 st5">IT</tspan><tspan x="122.2" y="0" class="st2 st3 st4 st6">L</tspan><tspan x="166.5" y="0" class="st2 st3 st4 st7">A</tspan><tspan x="215.1" y="0" class="st2 st3 st4">B</tspan></text>
+<g id="Layer_1_1_">
+</g>
 </svg>

@@ -29,7 +29,7 @@ const ProjectPage = (props) => {
         </h2>
         {thisProject.snippets.map((snippet, index) => {
           return (
-            <ExpansionPanel title={snippet.title} snippet={snippet.code} />
+            <ExpansionPanel title={snippet.title} snippet={snippet.code} key={index} />
           )
         })}
       </PageContent>

@@ -1,21 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#6248A3;}
-	.st1{opacity:0.102;fill:#FFFFFF;enable-background:new    ;}
-	.st2{fill:#FFFFFF;}
-	.st3{font-family:'Arial-Black';}
-	.st4{font-size:60.2279px;}
+	.st0{fill:#323232;}
+	.st1{fill:#333333;}
+	.st2{fill:#939393;}
+	.st3{fill:#0ACF83;}
+	.st4{fill:#A259FF;}
+	.st5{fill:#F24E1E;}
+	.st6{fill:#FF7262;}
+	.st7{fill:#1ABCFE;}
 </style>
-<polyline class="st0" points="0,512 512,512 512,0 0,0 0,512 "/>
-<polygon id="Shadow" class="st1" points="326.3,181.9 235.8,215.8 233.9,371.2 185.9,400.8 294.2,512 512,512 512,382.7 "/>
-<text transform="matrix(1 0 0 1 147.2633 153.018)" class="st2 st3 st4">FIGMA</text>
-<path class="st2" d="M256,291.3c0-22.5,18.3-40.8,40.8-40.8s40.8,18.3,40.8,40.8c0,22.5-18.3,40.8-40.8,40.8S256,313.9,256,291.3z
-	 M174.4,373c0-22.5,18.3-40.8,40.8-40.8H256V373c0,22.5-18.3,40.8-40.8,40.8S174.4,395.5,174.4,373z M256,168.9v81.6h40.8
-	c22.5,0,40.8-18.3,40.8-40.8s-18.3-40.8-40.8-40.8H256z M174.4,209.7c0,22.5,18.3,40.8,40.8,40.8H256v-81.6h-40.8
-	C192.7,168.9,174.4,187.2,174.4,209.7z M174.4,291.3c0,22.5,18.3,40.8,40.8,40.8H256v-81.6h-40.8
-	C192.7,250.5,174.4,268.8,174.4,291.3z"/>
-<path class="st2" d="M188.7,170.3"/>
+<g id="Layer_2">
+	<rect class="st0" width="512" height="512"/>
+</g>
+<g id="Layer_1">
+	<title></title>
+	<desc></desc>
+	<g id="Page-1">
+		<g id="Social_icons" transform="translate(-622.000000, -654.000000)">
+			<g id="Figma" transform="translate(622.000000, 654.000000)">
+				<g id="Color">
+					<g id="Taobao">
+						<g id="back">
+							<g id="path0_fill-link">
+								<g id="path0_fill">
+									<path class="st1" d="M256,504c-66.2,0-128.5-25.8-175.4-72.6S8,322.2,8,256S33.8,127.5,80.6,80.6S189.8,8,256,8
+										s128.5,25.8,175.4,72.6S504,189.8,504,256s-25.8,128.5-72.6,175.4S322.2,504,256,504z"/>
+									<path class="st2" d="M256,14c133.7,0,242,108.3,242,242S389.7,498,256,498S14,389.7,14,256S122.3,14,256,14 M256,2
+										c-34.3,0-67.5,6.7-98.9,20c-30.2,12.8-57.4,31.1-80.7,54.4S34.8,126.9,22,157.1C8.7,188.5,2,221.7,2,256s6.7,67.5,20,98.9
+										c12.8,30.2,31.1,57.4,54.4,80.7c23.3,23.3,50.5,41.6,80.7,54.4c31.3,13.2,64.6,20,98.9,20s67.5-6.7,98.9-20
+										c30.2-12.8,57.4-31.1,80.7-54.4c23.3-23.3,41.6-50.5,54.4-80.7c13.2-31.3,20-64.6,20-98.9s-6.7-67.5-20-98.9
+										c-12.8-30.2-31.1-57.4-54.4-80.7c-23.3-23.3-50.5-41.6-80.7-54.4C323.5,8.7,290.3,2,256,2L256,2z"/>
+								</g>
+							</g>
+						</g>
+					</g>
+				</g>
+				<g id="Group" transform="translate(18.000000, 12.000000)">
+					<g id="_x35_" transform="translate(0.000000, 24.000000)">
+						<g id="path1_fill-link">
+							<path id="path1_fill" class="st3" d="M189.6,365.2c26.7,0,48.4-21.7,48.4-48.4v-48.4h-48.4c-26.7,0-48.4,21.7-48.4,48.4
+								C141.2,343.5,162.9,365.2,189.6,365.2z"/>
+						</g>
+					</g>
+					<g id="_x34_" transform="translate(0.000000, 12.000000)">
+						<g id="path2_fill-link">
+							<path id="path2_fill" class="st4" d="M141.2,232c0-26.7,21.7-48.4,48.4-48.4H238v96.8h-48.4
+								C162.9,280.4,141.2,258.7,141.2,232z"/>
+						</g>
+					</g>
+					<g id="_x33_">
+						<g id="path2_fill-link_1_">
+							<path id="path2_fill_1_" class="st5" d="M141.2,147.2c0-26.7,21.7-48.4,48.4-48.4H238v96.8h-48.4
+								C162.9,195.6,141.2,173.9,141.2,147.2z"/>
+						</g>
+					</g>
+					<g id="_x32_" transform="translate(12.000000, 0.000000)">
+						<g id="path3_fill-link">
+							<path id="path3_fill" class="st6" d="M226,98.8h48.4c26.7,0,48.4,21.7,48.4,48.4s-21.7,48.4-48.4,48.4H226V98.8z"/>
+						</g>
+					</g>
+					<g id="_x31_" transform="translate(12.000000, 12.000000)">
+						<g id="path4_fill-link">
+							<path id="path4_fill" class="st7" d="M322.8,232c0,26.7-21.7,48.4-48.4,48.4S226,258.7,226,232s21.7-48.4,48.4-48.4
+								S322.8,205.3,322.8,232z"/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>

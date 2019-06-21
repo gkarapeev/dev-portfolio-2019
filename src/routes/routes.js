@@ -1,7 +1,7 @@
-import CV from './pages/CV/cv'
-import Certificates from './pages/Certificates/Certificates'
-import Portfolio from './pages/Portfolio/Portfolio'
-import About from './pages/About/About'
+import CV from '../pages/CV/cv'
+import Certificates from '../pages/Certificates/Certificates'
+import Portfolio from '../pages/Portfolio/Portfolio'
+import About from '../pages/About/About'
 
 
 const routes = [

@@ -3,7 +3,8 @@
   position: relative;
   height: 150px;
   display: flex;
-  padding: 1.3em;
+  align-items: center;
+  padding: 0 1.4em 0 1.4em;
 }
 
 .techBox::before {
@@ -14,4 +15,10 @@
   top: 0;
   height: 4px;
   background-color: #21C3CF;
+}
+
+.techBox img {
+  width: 80px;
+  height: 80px;
+  margin-right: 1.4em;
 }
