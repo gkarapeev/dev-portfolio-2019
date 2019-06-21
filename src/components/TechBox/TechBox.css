@@ -1,0 +1,17 @@
+.techBox {
+  background-color: #323232;
+  position: relative;
+  height: 150px;
+  display: flex;
+  padding: 1.3em;
+}
+
+.techBox::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 4px;
+  background-color: #21C3CF;
+}

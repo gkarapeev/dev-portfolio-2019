@@ -1,14 +1,19 @@
 .projectPicContainer {
-  display: flex;
-  justify-content: center;
-}
-.projectPicContainer a {
-  width: 30%;
-  height: 30%;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
 }
 
-.projectPic img {
+.projectDoc img {
   height: 100%;
   width: 100%;
   vertical-align: top;
+}
+
+.projectDescription {
+  margin: 0 0 0 30px;
+  text-align: justify;
+}
+
+.snippetTitle {
+  margin-bottom: 30px;
 }

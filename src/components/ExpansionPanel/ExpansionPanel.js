@@ -22,7 +22,7 @@ class ExpansionPanel extends React.Component {
 
   render() {
     return (
-      <Paper bg='white' classes={'exPanel'}>
+      <Paper bg='white' classes={['exPanel']}>
         <h3 onClick={this.handleExpandToggle}>{this.props.title}</h3>
         <img src={triangle} alt='expand' className='triangle' onClick={this.handleExpandToggle}/>
         {this.state.expanded ?
