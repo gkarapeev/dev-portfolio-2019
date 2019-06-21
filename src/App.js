@@ -24,37 +24,17 @@ const hist = createBrowserHistory()
 
 class App extends React.Component {
 
-  state = {
-    navLinks: [
-      {
-        name: 'Portfolio',
-        active: true
-      },
-      {
-        name: 'CV',
-        active: false
-      },
-      {
-        name: 'Certificates',
-        active: false
-      },
-      {
-        name: 'Contact',
-        active: false
-      }
-    ]
-  }
-
   render() {
     return (
       <Router history={hist}>
         <div className="App">
-          <Header links={this.state.navLinks} />
+          <Header links={routes} />
           <div className="mainCont">
             <Switch>
               {allRoutes.map((route, index) => {
+                console.log(route.name)
                 return (
-                  <Route path={route.path} component={route.component} key={index} />
+                  <Route path={route.path} exact render={() => <route.component name={route.name} />} key={index} />
                 )
               })}
               <Redirect from="/" to="/portfolio" />

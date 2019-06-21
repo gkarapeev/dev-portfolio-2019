@@ -5,7 +5,7 @@ import Titlebar from '../../components/Titlebar/Titlebar'
 const ProjectPage = (props) => {
   return(
     <Fragment>
-      <Titlebar location={props.location} />
+      <Titlebar name={props.name} />
       <PageContent>
         <div>
           proj page

@@ -16,7 +16,7 @@ import UX_Certificate_PDF from '../../img/UX_Certificate.pdf'
 const Skills = (props) => {
   return (
     <Fragment>
-      <Titlebar location={props.location} />
+      <Titlebar name={props.name} />
       <PageContent>
         <div className='certificates'>
           <Document bg='beige' content={Degree} target='_blank' classes={['certificate']} address={Degree_PDF} alt='Degree' hoverMsg='Open in new tab'/>

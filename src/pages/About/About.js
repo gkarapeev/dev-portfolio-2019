@@ -14,7 +14,7 @@ import InIcon from '../../img/in_c.svg'
 const Skills = (props) => {
   return (
     <Fragment>
-      <Titlebar location={props.location} />
+      <Titlebar name={props.name} />
       <PageContent>
         <div className='hello'>
           <img src={Georgi} className='Georgi' alt='Georgi Karapeev' />
@@ -23,7 +23,7 @@ const Skills = (props) => {
             <h2>Hi, I'm Georgi!</h2>
           </div>
         </div>
-        <Paper bg='white' classes={'aboutCard'}>
+        <Paper bg='white' classes={['aboutCard']}>
           <h2>About me</h2>
           <p>
             When I wrote my first-ever JavaScript function in January 2019, I had no idea how much of a blast programming would turn out for me. Since then I’ve kept working hard day in, day out, and I’m now super excited to be able to make this website in ReactJS and take my carreer as a software developer to the next level.
@@ -35,7 +35,7 @@ const Skills = (props) => {
             If you think I can help your business or team grow bigger and stronger, don’t hesitate to get in touch!
           </p>
         </Paper>
-        <Paper bg='white' classes={'contactCard'}>
+        <Paper bg='white' classes={['contactCard']}>
           <div className='contactInfo'>
             <div className='contactRow'>
               <div className='iconBG'>

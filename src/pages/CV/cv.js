@@ -7,7 +7,7 @@ import PageContent from '../../components/PageContent/PageContent'
 const Skills = (props) => {
   return (
     <Fragment>
-      <Titlebar location={props.location} />
+      <Titlebar name={props.name} />
       <PageContent>
         CV Content
       </PageContent>
