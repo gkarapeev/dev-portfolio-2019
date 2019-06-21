@@ -1,0 +1,14 @@
+.projectPicContainer {
+  display: flex;
+  justify-content: center;
+}
+.projectPicContainer a {
+  width: 30%;
+  height: 30%;
+}
+
+.projectPic img {
+  height: 100%;
+  width: 100%;
+  vertical-align: top;
+}

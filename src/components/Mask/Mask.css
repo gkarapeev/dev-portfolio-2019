@@ -15,7 +15,6 @@
 
 .masked {
   position: relative;
-  flex: 1;
 }
 
 .mask:hover {

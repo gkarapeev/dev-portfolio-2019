@@ -30,7 +30,6 @@ const App = () => {
         <div className="mainCont">
           <Switch>
             {allRoutes.map((route, index) => {
-              console.log(route.name)
               return (
                 <Route path={route.path} exact render={() => <route.component name={route.name} />} key={index} />
               )

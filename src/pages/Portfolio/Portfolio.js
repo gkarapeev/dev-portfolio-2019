@@ -6,7 +6,6 @@ import './Portfolio.css'
 import Projects from '../../projects/project_list'
 
 const Skills = (props) => {
-  console.log(props)
   return (
     <Fragment>
       <Titlebar name={props.name} />
