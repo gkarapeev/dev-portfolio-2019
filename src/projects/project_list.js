@@ -8,6 +8,7 @@ import InternGram from '../img/project-thumbs/interngram.png'
 
 import Radix from '../img/project-thumbs/radix.png'
 
+import snippet_list from '../projects/code_snippets/snippet_list'
 
 const project_list = [
   {
@@ -15,7 +16,7 @@ const project_list = [
     title: 'Tic-Tac-Toe',
     thumb: TicTacToe,
     projectPic: TicTacToe,
-    snippet: 'TicTacToe snippet, mothafuckaaa!',
+    snippets: snippet_list.radix,
     description: 'This was my first ever personal JavaScript project. I did it several weeks after I started my JS course in SoftUni. We hadn\'t been taught DOM manipulation or OOP yet, but I was eager to put what I know to practice, so I did my research, I found out how to make an object constructor and made things work. Although it\'s simple, it was a big step for me and thinking about it still makes me smile.',
     stack: ['HTML5', 'CSS3', 'JavaScript']
   },
@@ -24,7 +25,7 @@ const project_list = [
     title: 'Application Manager',
     thumb: AppManager,
     projectPic: AppManager,
-    snippet: 'AppManager snippet, mothafuckaaa!',
+    snippets: snippet_list.radix,
     description: 'This was my first ever personal JavaScript project. I did it several weeks after I started my JS course in SoftUni. We hadn\'t been taught DOM manipulation or OOP yet, but I was eager to put what I know to practice, so I did my research, I found out how to make an object constructor and made things work. Although it\'s simple, it was a big step for me and thinking about it still makes me smile.',
     stack: ['HTML5', 'CSS3', 'JavaScript']
   },
@@ -33,7 +34,7 @@ const project_list = [
     title: 'InternGram',
     thumb: InternGram,
     projectPic: InternGram,
-    snippet: 'InternGram snippet, mothafuckaaa!',
+    snippets: snippet_list.radix,
     description: 'This was my first ever personal JavaScript project. I did it several weeks after I started my JS course in SoftUni. We hadn\'t been taught DOM manipulation or OOP yet, but I was eager to put what I know to practice, so I did my research, I found out how to make an object constructor and made things work. Although it\'s simple, it was a big step for me and thinking about it still makes me smile.',
     stack: ['HTML5', 'CSS3', 'JavaScript']
   },
@@ -42,7 +43,7 @@ const project_list = [
     title: 'Radix',
     thumb: Radix,
     projectPic: Radix,
-    snippet: 'Radix snippet, mothafuckaaa!',
+    snippets: snippet_list.radix,
     description: 'This was my first ever personal JavaScript project. I did it several weeks after I started my JS course in SoftUni. We hadn\'t been taught DOM manipulation or OOP yet, but I was eager to put what I know to practice, so I did my research, I found out how to make an object constructor and made things work. Although it\'s simple, it was a big step for me and thinking about it still makes me smile.',
     stack: ['HTML5', 'CSS3', 'JavaScript']
   },
@@ -51,7 +52,7 @@ const project_list = [
     title: 'Shopping Cards',
     thumb: ShoppingCards,
     projectPic: ShoppingCards,
-    snippet: 'ShoppingCards snippet, mothafuckaaa!',
+    snippets: snippet_list.radix,
     description: 'This was my first ever personal JavaScript project. I did it several weeks after I started my JS course in SoftUni. We hadn\'t been taught DOM manipulation or OOP yet, but I was eager to put what I know to practice, so I did my research, I found out how to make an object constructor and made things work. Although it\'s simple, it was a big step for me and thinking about it still makes me smile.',
     stack: ['HTML5', 'CSS3', 'JavaScript']
   }

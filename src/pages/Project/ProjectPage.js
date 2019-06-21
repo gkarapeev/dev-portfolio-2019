@@ -15,7 +15,7 @@ const ProjectPage = (props) => {
       <Titlebar name={props.name} />
       <PageContent>
         <div className='projectPicContainer'>
-          <Document content={ProjectPic} bg='purple' target='_blank' classes={['projectDoc']} address={'https://www.google.bg'} hoverMsg='Open project in new tab'/>
+          <Document content={ProjectPic} bg='white' target='_blank' classes={['projectDoc']} address={'https://www.google.bg'} hoverMsg='Open project in new tab'/>
           <p className='projectDescription'>
             {thisProject.description}
           </p>
@@ -27,7 +27,11 @@ const ProjectPage = (props) => {
         <h2 className='snippetTitle'>
           Some code snippets from this project
         </h2>
-        <ExpansionPanel title={'Snippet for ' + props.name} snippet={thisProject.snippet}/>
+        {thisProject.snippets.map((snippet, index) => {
+          return (
+            <ExpansionPanel title={snippet.title} snippet={snippet.code} />
+          )
+        })}
       </PageContent>
     </Fragment>
   )

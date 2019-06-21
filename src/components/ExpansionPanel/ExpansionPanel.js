@@ -27,7 +27,7 @@ class ExpansionPanel extends React.Component {
         <img src={triangle} alt='expand' className='triangle' onClick={this.handleExpandToggle}/>
         {this.state.expanded ?
           <div className='snippetCont'>
-            <p>Example Code</p>
+            <p>Code:</p>
             <SyntaxHighlighter
               language='javascript'
               style={myStyle}>

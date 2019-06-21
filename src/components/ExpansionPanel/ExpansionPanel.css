@@ -2,7 +2,7 @@
   flex-grow: 1;
   padding: 1.1em;
   position: relative;
-  margin-bottom: 1em;
+  margin-bottom: 1em !important;
 }
 .exPanel h3 {
   cursor: pointer;
