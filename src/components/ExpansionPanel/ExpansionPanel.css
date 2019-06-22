@@ -4,17 +4,31 @@
   position: relative;
   margin-bottom: 1em !important;
 }
+
 .exPanel h3 {
   cursor: pointer;
   padding: 1em;
   margin: -1em;
+  border-radius: 8px;
+  transition: all 0.2s;
 }
+
+.exPanel h3:hover {
+  background-color: #cccccc;
+}
+
+h3.expanded {
+  border-radius: 8px 8px 0 0;
+}
+
 .snippetCont {
   margin-top: 3em;
 }
+
 .snippetCont p {
   margin: 1.5em;
 }
+
 .triangle {
   position: absolute;
   top: 28px;

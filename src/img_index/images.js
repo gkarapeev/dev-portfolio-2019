@@ -4,6 +4,7 @@ import AppManager from '../img/project-thumbs/app_manager.png'
 import ShoppingCards from '../img/project-thumbs/discount_cards.png'
 import InternGram from '../img/project-thumbs/interngram.png'
 import Radix from '../img/project-thumbs/radix.png'
+import Exercise from '../img/project-thumbs/exercise.png'
 
 // Icons
 import HTML from '../img/web-icons/html.svg'
@@ -20,13 +21,17 @@ import Photoshop from '../img/web-icons/photoshop.png'
 import Illustrator from '../img/web-icons/illustrator.png'
 import Zeplin from '../img/web-icons/zeplin.svg'
 
+// Other
+import CV from '../img/cv.svg'
+
 const images = {
   thumbs: {
     TicTacToe: TicTacToe,
     AppManager: AppManager,
     ShoppingCards: ShoppingCards,
     InternGram: InternGram,
-    Radix: Radix
+    Radix: Radix,
+    Exercise: Exercise
   },
   icons: {
     html: HTML,
@@ -42,7 +47,8 @@ const images = {
     ps: Photoshop,
     il: Illustrator,
     zp: Zeplin
-  }
+  },
+  cv: CV
 }
 
 export default images;

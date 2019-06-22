@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import Titlebar from '../../components/Titlebar/Titlebar'
 import PageContent from '../../components/PageContent/PageContent'
 import Paper from '../../components/Paper/Paper'
+import Document from '../../components/Document/Document'
 import './About.css'
 
 import Georgi from '../../img/georgi-karapeev.jpg'
@@ -10,6 +11,9 @@ import PhoneIcon from '../../img/phone.svg'
 import MailIcon from '../../img/mail.svg'
 import GitIcon from '../../img/gh_c.svg'
 import InIcon from '../../img/in_c.svg'
+import images from '../../img_index/images'
+
+import CV_PDF from '../../documents/Georgi_Karapeev_CV_2019.pdf'
 
 const Skills = (props) => {
   return (
@@ -63,9 +67,7 @@ const Skills = (props) => {
             </div>
           </div>
           <div className='cvBox'>
-            <div className='cv'>
-              CV
-            </div>
+            <Document bg='white' content={images.cv} target='_blank' classes={['cv']} address={CV_PDF} alt='Degree' hoverMsg='Download CV'/>
           </div>
         </Paper>
       </PageContent>

@@ -55,18 +55,14 @@
 }
 .cvBox {
   width: 300px;
+  height: 226px;
   border-left: 1px solid #0000002f;
   display: flex;
   justify-content: center;
   align-items: stretch;
 }
 .cv {
-  border: 1px solid grey;
-  border-radius: 6px;
-  width: 180px;
+  height: 100%;
   transform: translateX(1.5em);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #00000031;
+  box-sizing: border-box;
 }

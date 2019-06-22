@@ -3,7 +3,7 @@ import Titlebar from '../../components/Titlebar/Titlebar'
 import PageContent from '../../components/PageContent/PageContent'
 import DocumentLink from '../../components/Document/DocumentLink'
 import './Portfolio.css'
-import Projects from '../../projects/project_list'
+import Projects from '../../projects/projects'
 
 const Skills = (props) => {
   return (

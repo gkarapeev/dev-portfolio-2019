@@ -5,7 +5,7 @@ import Footer from './components/Footer/Footer'
 import { Router, Route, Redirect, Switch } from 'react-router-dom'
 import { createBrowserHistory } from 'history'
 import routes from './routes/routes'
-import Projects from './projects/project_list'
+import Projects from './projects/projects'
 import ProjectPage from './pages/Project/ProjectPage'
 
 const projectRoutes = Projects.map(project => {

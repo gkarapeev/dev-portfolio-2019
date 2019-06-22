@@ -1,5 +1,5 @@
 import images from '../img_index/images'
-import snippet_list from '../projects/code_snippets/snippet_list'
+import snippet_list from './code_snippets/snippet_list'
 
 const project_list = [
   {
@@ -9,7 +9,8 @@ const project_list = [
     projectPic: images.thumbs.TicTacToe,
     snippets: snippet_list.radix,
     description: 'This was my first ever personal JavaScript project. I did it several weeks after I started my JS course in SoftUni. We hadn\'t been taught DOM manipulation or OOP yet, but I was eager to put what I know to practice, so I did my research, I found out how to make an object constructor and made things work. Although it\'s simple, it was a big step for me and thinking about it still makes me smile.',
-    stack: ['html', 'css', 'js']
+    features: [''],
+    stack: ['html', 'css', 'js', 'ps', 'il']
   },
   {
     path: '/portfolio/application-manager',
@@ -18,6 +19,7 @@ const project_list = [
     projectPic: images.thumbs.AppManager,
     snippets: snippet_list.radix,
     description: 'This was my first ever personal JavaScript project. I did it several weeks after I started my JS course in SoftUni. We hadn\'t been taught DOM manipulation or OOP yet, but I was eager to put what I know to practice, so I did my research, I found out how to make an object constructor and made things work. Although it\'s simple, it was a big step for me and thinking about it still makes me smile.',
+    features: [''],
     stack: ['html', 'css', 'js']
   },
   {
@@ -27,6 +29,7 @@ const project_list = [
     projectPic: images.thumbs.InternGram,
     snippets: snippet_list.radix,
     description: 'This was my first ever personal JavaScript project. I did it several weeks after I started my JS course in SoftUni. We hadn\'t been taught DOM manipulation or OOP yet, but I was eager to put what I know to practice, so I did my research, I found out how to make an object constructor and made things work. Although it\'s simple, it was a big step for me and thinking about it still makes me smile.',
+    features: ['Dynamic post loading (lazy loading)'],
     stack: ['html', 'css', 'js', 'r', 'ps', 'il']
   },
   {
@@ -36,6 +39,7 @@ const project_list = [
     projectPic: images.thumbs.Radix,
     snippets: snippet_list.radix,
     description: 'This was my first ever personal JavaScript project. I did it several weeks after I started my JS course in SoftUni. We hadn\'t been taught DOM manipulation or OOP yet, but I was eager to put what I know to practice, so I did my research, I found out how to make an object constructor and made things work. Although it\'s simple, it was a big step for me and thinking about it still makes me smile.',
+    features: [''],
     stack: ['html', 'css', 'js', 'ss', 'r', 'gl', 'fig', 'pm']
   },
   {
@@ -45,15 +49,17 @@ const project_list = [
     projectPic: images.thumbs.ShoppingCards,
     snippets: snippet_list.radix,
     description: 'This was my first ever personal JavaScript project. I did it several weeks after I started my JS course in SoftUni. We hadn\'t been taught DOM manipulation or OOP yet, but I was eager to put what I know to practice, so I did my research, I found out how to make an object constructor and made things work. Although it\'s simple, it was a big step for me and thinking about it still makes me smile.',
+    features: [''],
     stack: ['html', 'css', 'js']
   },
   {
     path: '/portfolio/exercise',
     title: 'Exercise',
-    thumb: images.thumbs.ShoppingCards,
-    projectPic: images.thumbs.ShoppingCards,
+    thumb: images.thumbs.Exercise,
+    projectPic: images.thumbs.Exercise,
     snippets: snippet_list.radix,
     description: 'The one which I can\'t show because it\'s from a real client. Show it pixelated.',
+    features: ['hui', 'mui', 'golqm'],
     stack: ['html', 'css', 'js', 'zp']
   }
 ]
