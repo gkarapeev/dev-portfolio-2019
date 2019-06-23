@@ -12,6 +12,8 @@ import projects from '../../projects/projects'
 const ProjectPage = (props) => {
   const thisProject = projects.filter(project => project.title.match(props.name))[0]
   const ProjectPic = thisProject.projectPic
+  const target = thisProject.gitHubLink === '#' ? '_self' : 'blank'
+
   return(
     <Fragment>
       <Titlebar name={props.name} />
@@ -43,12 +45,6 @@ const ProjectPage = (props) => {
         </section>
         <section>
           <h2 className='snippetTitle'>
-            Tech stack used in this project
-          </h2>
-          <TechBox stack={thisProject.stack} />
-        </section>
-        <section>
-          <h2 className='snippetTitle'>
             Some code snippets from this project
           </h2>
           {thisProject.snippets.map((snippet, index) => {
@@ -58,12 +54,18 @@ const ProjectPage = (props) => {
           })}
         </section>
         <section>
+          <h2 className='snippetTitle'>
+            Tech stack used in this project
+          </h2>
+          <TechBox stack={thisProject.stack} />
+        </section>
+        <section>
           <div className='buttonCont'>
             <Button to='/portfolio'>
               <BackArrow />
               Back to all projects
             </Button>
-            <a href={thisProject.gitHubLink} className='button' target='_blank' rel="noopener noreferrer">
+            <a href={thisProject.gitHubLink} className='button' target={target} rel="noopener noreferrer">
               View this project on GitHub
             </a>
           </div>

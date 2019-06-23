@@ -8,6 +8,12 @@
   width: 80px;
   height: 80px;
   margin-right: 1.5em;
+  filter: grayscale(100%);
+  transition: all 0.2s;
+}
+
+.techBox img:hover {
+  filter: none;
 }
 
 .techBox img:last-child {

@@ -22,7 +22,7 @@ const project_list = [
     description: 'This was part of my entry for an internship at Prime Holding. During this project I learned what CRUD means and I managed to make it work on time for the submission. My application was successful, so that was also a very happy moment for me.',
     features: ['CRUD Operations', 'DOM manipulation', 'HTML Form basics', 'Importing Google fonts'],
     stack: ['html', 'css', 'js'],
-    gitHubLink: 'https://github.com/gkarapeev'
+    gitHubLink: 'https://github.com/gkarapeev/Personal-Projects/tree/master/Prime%20Holding%20Entry%20Test/Frontend'
   },
   {
     path: '/portfolio/exercise',
@@ -33,7 +33,7 @@ const project_list = [
     description: 'This one I can\'t fully show because it is part of a real project for a client. It was my first time working qith Bootstrap and jQuery.',
     features: ['Bootstrap', 'jQuery', 'Animated SVG elements'],
     stack: ['html', 'css', 'js', 'bs', 'jq', 'ps', 'il', 'zp'],
-    gitHubLink: 'https://github.com/gkarapeev'
+    gitHubLink: '#'
   },
   {
     path: '/portfolio/shopping-cards',
@@ -44,7 +44,7 @@ const project_list = [
     description: 'Here we still had to use purely vanilla HTML, CSS and JS in order to get the fundamentals hammered in. Writing and re-writing the sorting and filtering algorithms several times until they worked together was the most interesting part of this project.',
     features: ['Vanilla HTML5, CSS3, and JS', 'Sorting and Filtering algorithms', 'Smooth UX', 'Using the browser localStorage', 'Automatic ID generation algorithm'],
     stack: ['html', 'css', 'js', 'ps', 'il', 'fig'],
-    gitHubLink: 'https://github.com/gkarapeev'
+    gitHubLink: 'https://gitlab.com/gkarapeev/discount-cards'
   },
   {
     path: '/portfolio/interngram',
@@ -55,7 +55,7 @@ const project_list = [
     description: '',
     features: ['My first React project!', 'Dynamic post loading (lazy loading)', 'Visualizing Posts from data', 'HTTP Requests'],
     stack: ['html', 'css', 'js', 'ps', 'il', 'r'],
-    gitHubLink: 'https://github.com/gkarapeev'
+    gitHubLink: 'https://gitlab.com/gkarapeev/ig'
   },
   {
     path: '/portfolio/radix',
