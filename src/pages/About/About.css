@@ -16,8 +16,8 @@
   filter: grayscale(100%);
   position: absolute;
   top: 0;
-  right: 2.2em;
-  transform: translateY(-40%)
+  right: 50%;
+  transform: translate(50%, -40%)
 }
 
 .contactCont {

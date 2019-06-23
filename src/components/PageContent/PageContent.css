@@ -5,7 +5,3 @@
   flex-direction: column;
   margin-top: 3em;
 }
-
-.contentContainer > div {
-  margin-bottom: 60px;
-}

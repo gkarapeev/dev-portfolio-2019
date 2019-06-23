@@ -5,6 +5,10 @@
   margin-bottom: 1em !important;
 }
 
+.exPanel:last-child {
+  margin-bottom: 0 !important;
+}
+
 .exPanel h3 {
   cursor: pointer;
   padding: 1em;

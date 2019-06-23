@@ -10,7 +10,10 @@
   align-items: center;
   flex: 1;
   flex-direction: column;
-  margin-bottom: 3em;
+}
+
+section {
+  margin-bottom: 60px;
 }
 
 h2 {

@@ -10,17 +10,19 @@ const Skills = (props) => {
     <Fragment>
       <Titlebar name={props.name} />
       <PageContent>
-        <div className='projectContainer'>
-          <ul>
-            {Projects.map((proj, index) => {
-              return (
-                <li key={index}>
-                  <DocumentLink bg='white' content={proj.thumb} path={proj.path} alt={proj.title} hoverMsg='View Project'/>
-                </li>
-              )
-            })}
-          </ul>
-        </div>
+        <section>
+          <div className='projectContainer'>
+            <ul>
+              {Projects.map((proj, index) => {
+                return (
+                  <li key={index}>
+                    <DocumentLink bg='white' content={proj.thumb} path={proj.path} alt={proj.title} hoverMsg='View Project'/>
+                  </li>
+                )
+              })}
+            </ul>
+          </div>
+        </section>
       </PageContent>
     </Fragment>
   )
