@@ -17,6 +17,9 @@ const ProjectPage = (props) => {
         <div className='projectPicContainer'>
           <Document content={ProjectPic} bg='white' target='_blank' classes={['projectDoc']} address={'https://www.google.bg'} hoverMsg='Open project in new tab'/>
           <div className='descriptionCont'>
+            <h2>
+              About this project
+            </h2>
             <p>
               {thisProject.description}
             </p>

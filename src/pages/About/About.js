@@ -3,16 +3,10 @@ import Titlebar from '../../components/Titlebar/Titlebar'
 import PageContent from '../../components/PageContent/PageContent'
 import Paper from '../../components/Paper/Paper'
 import Document from '../../components/Document/Document'
+import Card from '../../components/Card/Card'
 import './About.css'
 
-import Georgi from '../../img/georgi-karapeev.jpg'
-import Bubble from '../../img/bubble.svg'
-import PhoneIcon from '../../img/phone.svg'
-import MailIcon from '../../img/mail.svg'
-import GitIcon from '../../img/gh_c.svg'
-import InIcon from '../../img/in_c.svg'
 import images from '../../img_index/images'
-
 import CV_PDF from '../../documents/Georgi_Karapeev_CV_2019.pdf'
 
 const Skills = (props) => {
@@ -20,15 +14,13 @@ const Skills = (props) => {
     <Fragment>
       <Titlebar name={props.name} />
       <PageContent>
-        <div className='hello'>
-          <img src={Georgi} className='Georgi' alt='Georgi Karapeev' />
-          <div className='bubbleCont'>
-            <img src={Bubble} alt={'Hi, I\'m Georgi'} />
-            <h2>Hi, I'm Georgi!</h2>
-          </div>
-        </div>
+
+        <h2>About me</h2>
+
         <Paper bg='white' classes={['aboutCard']}>
-          <h2>About me</h2>
+          <img src={images.contact.Georgi} id='Georgi' alt='Georgi Karapeev' />
+          <h2>Hi, I'm Georgi!</h2>
+
           <p>
             When I wrote my first-ever JavaScript function in January 2019, I had no idea how much of a blast programming would turn out for me. Since then I’ve kept working hard day in, day out, and I’m now super excited to be able to make this website in ReactJS and take my carreer as a software developer to the next level.
           </p>
@@ -39,37 +31,39 @@ const Skills = (props) => {
             If you think I can help your business or team grow bigger and stronger, don’t hesitate to get in touch!
           </p>
         </Paper>
-        <Paper bg='white' classes={['contactCard']}>
-          <div className='contactInfo'>
+
+        <h2>Contact info</h2>
+
+        <Card classes={['contactCont']}>
+          <div className='infoCont'>
             <div className='contactRow'>
-              <div className='iconBG'>
-                <img src={PhoneIcon} alt='phone' />
+              <img src={images.contact.PhoneIcon} alt='Telephone' />
+              <div className='contactItem'>
+                <span>+359 884010777</span>
               </div>
-              <span>+359 884010777</span>
             </div>
             <div className='contactRow'>
-              <div className='iconBG'>
-                <img src={MailIcon} alt='e-mail' />
+              <img src={images.contact.MailIcon} alt='Email' />
+              <div className='contactItem'>
+                <a href='mailto:gkarapeev@gmail.com' target='_blank' rel="noopener noreferrer"><span>gkarapeev@gmail.com</span></a>
               </div>
-              <span>gkarapeev@gmail.com</span>
             </div>
             <div className='contactRow'>
-              <div className='iconBG'>
-                <img src={GitIcon} alt='GitHub' />
+              <img src={images.contact.GitIcon} alt='GitHub' />
+              <div className='contactItem'>
+                <a href='http://www.github.com/gkarapeev' target='_blank' rel="noopener noreferrer"><span>github.com/gkarapeev</span></a>
               </div>
-              <span>github.com/gkarapeev</span>
             </div>
             <div className='contactRow'>
-              <div className='iconBG'>
-                <img src={InIcon} alt='LinkedIn' />
+              <img src={images.contact.InIcon} alt='LinkedIn' />
+              <div className='contactItem'>
+                <a href='http://www.linkedin.com/in/gkarapeev' target='_blank' rel="noopener noreferrer"><span>linkedin.com/in/gkarapeev</span></a>
               </div>
-              <span>linkedin.com/in/gkarapeev</span>
             </div>
           </div>
-          <div className='cvBox'>
-            <Document bg='white' content={images.cv} target='_blank' classes={['cv']} address={CV_PDF} alt='Degree' hoverMsg='Download CV'/>
-          </div>
-        </Paper>
+          <div id='divider'></div>
+          <Document bg='white' content={images.contact.CV} classes={['cv']} target='_blank' address={CV_PDF} alt='Download CV' hoverMsg='Download CV' />
+        </Card>
       </PageContent>
     </Fragment>
   )

@@ -1,68 +1,74 @@
 .aboutCard {
-  padding: 2em;
-  margin-bottom: 3em;
-}
-.aboutCard p {
-  line-height: 1.4em;
-}
-.hello {
-  display: flex;
-  align-items: flex-start;
-}
-.bubbleCont {
+  padding: 2.2em;
+  text-align: justify;
   position: relative;
-  margin-bottom: 3em;
 }
-.hello h2 {
-  color: white;
-  position: absolute;
-  top: 19px;
-  left: 65px;
+
+.aboutCard p {
+  line-height: 1.5em;
 }
-.Georgi {
+
+#Georgi {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
-  width: 80px;
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 90px;
+  filter: grayscale(100%);
+  position: absolute;
+  top: 0;
+  right: 2.2em;
+  transform: translateY(-40%)
 }
-.contactCard {
+
+.contactCont {
   display: flex;
-  justify-content: space-between;
-  padding: 3em;
-  flex-direction: row;
-  align-items: stretch;
+  justify-content: space-around;
+  height: 350px;
+  align-items: center;
 }
+
+#divider {
+  width: 1px;
+  height: 200px;
+  background-color: #ababab;
+  margin: -70px;
+}
+
+.cv {
+  height: 250px;
+}
+
+.infoCont {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  color: #ababab;
+  height: 250px;
+}
+
 .contactRow {
   display: flex;
-  align-items: center;
-  margin-bottom: 1.2em;
+  align-content: center;
 }
-.contactRow:last-child {
-  margin-bottom: 0;
+
+.contactRow img {
+  width: 26px;
 }
-.iconBG {
-  width: 42px;
-  background-color: #323232;
-  border-radius: 50%;
-  padding-top: 42px;
-  position: relative;
-  margin-right: 1.2em;
-}
-.iconBG img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.cvBox {
-  width: 300px;
-  height: 226px;
-  border-left: 1px solid #0000002f;
+
+.contactItem {
+  margin-left: 1.2em;
   display: flex;
-  justify-content: center;
-  align-items: stretch;
+  align-items: center;
 }
-.cv {
-  height: 100%;
-  transform: translateX(1.5em);
-  box-sizing: border-box;
+
+.contactItem a,
+.contactItem a:visited {
+  color:#ababab;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.contactItem a:hover {
+  color: #21C3CF;
+  transition: color 0.2s;
 }

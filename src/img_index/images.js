@@ -10,6 +10,7 @@ import Exercise from '../img/project-thumbs/exercise.png'
 import HTML from '../img/web-icons/html.svg'
 import CSS from '../img/web-icons/css.svg'
 import JavaScript from '../img/web-icons/js.svg'
+import jQuerry from '../img/web-icons/jquery.svg'
 import Bootstrap from '../img/web-icons/bootstrap.svg'
 import Github from '../img/web-icons/github.svg'
 import Figma from '../img/web-icons/figma.svg'
@@ -21,7 +22,13 @@ import Photoshop from '../img/web-icons/photoshop.png'
 import Illustrator from '../img/web-icons/illustrator.png'
 import Zeplin from '../img/web-icons/zeplin.svg'
 
-// Other
+// Contact
+import Georgi from '../img/georgi-karapeev.jpg'
+import Bubble from '../img/bubble.svg'
+import PhoneIcon from '../img/phone.svg'
+import MailIcon from '../img/mail.svg'
+import GitIcon from '../img/gh.svg'
+import InIcon from '../img/in.svg'
 import CV from '../img/cv.svg'
 
 const images = {
@@ -37,6 +44,7 @@ const images = {
     html: HTML,
     css: CSS,
     js: JavaScript,
+    jq: jQuerry,
     r: React,
     pm: Postman,
     bs: Bootstrap,
@@ -48,7 +56,15 @@ const images = {
     il: Illustrator,
     zp: Zeplin
   },
-  cv: CV
+  contact: {
+    Georgi: Georgi,
+    Bubble: Bubble,
+    PhoneIcon: PhoneIcon,
+    MailIcon: MailIcon,
+    GitIcon: GitIcon,
+    InIcon: InIcon,
+    CV: CV
+  },
 }
 
 export default images;
