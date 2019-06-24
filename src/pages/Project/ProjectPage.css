@@ -14,6 +14,10 @@
   text-align: justify;
 }
 
+.descriptionCont li {
+  line-height: 1.8em;
+}
+
 .snippetTitle {
   margin-bottom: 30px;
 }
@@ -23,13 +27,13 @@
   justify-content: center;
 }
 
-.buttonCont a:first-child {
-  margin-right: 2em;
+.buttonCont a:nth-child(2) {
+  margin-left: 2em;
 }
 
 #arrow {
   width: 20px;
   height: 16px;
   margin-right: 8px;
-  margin-left: -4px;
+  margin-left: -6px;
 }

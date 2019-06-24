@@ -1,0 +1,27 @@
+.cvCont {
+  display: flex;
+  flex-direction: column;
+}
+
+.cvCont a:first-child {
+  margin-bottom: 1em;
+}
+
+.cvCont a {
+  width: 100%;
+}
+
+.cvLarge {
+  padding: 6px;
+}
+
+.cvLarge img {
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 3px;
+}
+
+#cvDownload {
+  display: flex;
+  justify-content: center;
+}

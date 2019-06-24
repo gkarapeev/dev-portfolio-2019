@@ -21,7 +21,7 @@ const BackArrow = () => {
     .button:hover
     .arrowShape {
       fill: #ffffff;
-      animation: bounce 1.2s infinite;
+      animation: bounce 1s infinite;
     }`
   )
 
@@ -30,7 +30,7 @@ const BackArrow = () => {
     <style>
       {style}
     </style>
-    <path class="arrowShape" d="M0,12c0,0.6,0.2,1.3,0.6,1.7l9.6,9.6c0.9,0.9,2.3,0.9,3.2,0l0.8-0.8c0.9-0.9,0.9-2.3,0-3.2L6.9,12l7.3-7.3
+    <path className="arrowShape" d="M0,12c0,0.6,0.2,1.3,0.6,1.7l9.6,9.6c0.9,0.9,2.3,0.9,3.2,0l0.8-0.8c0.9-0.9,0.9-2.3,0-3.2L6.9,12l7.3-7.3
       c0.9-0.9,0.9-2.3,0-3.2l-0.8-0.8c-0.9-0.9-2.3-0.9-3.2,0l-9.6,9.6C0.2,10.7,0,11.3,0,12z"/>
     </svg>
   )

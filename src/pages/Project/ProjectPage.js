@@ -12,7 +12,6 @@ import projects from '../../projects/projects'
 const ProjectPage = (props) => {
   const thisProject = projects.filter(project => project.title.match(props.name))[0]
   const ProjectPic = thisProject.projectPic
-  const target = thisProject.gitHubLink === '#' ? '_self' : 'blank'
 
   return(
     <Fragment>
@@ -20,7 +19,7 @@ const ProjectPage = (props) => {
       <PageContent>
         <section>
           <div className='projectPicContainer'>
-            <Document content={ProjectPic} bg='white' target='_blank' classes={['projectDoc']} address={'https://www.google.bg'} hoverMsg='Open project in new tab'/>
+            <Document content={ProjectPic} bg='white' target='_blank' classes={['projectDoc']} address={thisProject.url} hoverMsg='Open project in new tab'/>
             <div className='descriptionCont'>
               <h2>
                 About this project
@@ -43,31 +42,44 @@ const ProjectPage = (props) => {
             </div>
           </div>
         </section>
-        <section>
-          <h2 className='snippetTitle'>
-            Some code snippets from this project
-          </h2>
-          {thisProject.snippets.map((snippet, index) => {
-            return (
-              <ExpansionPanel title={snippet.title} snippet={snippet.code} key={index} />
-            )
-          })}
-        </section>
-        <section>
-          <h2 className='snippetTitle'>
-            Tech stack used in this project
-          </h2>
-          <TechBox stack={thisProject.stack} />
-        </section>
+
+        {thisProject.snippets ? (
+          <section>
+            <h2 className='snippetTitle'>
+              Some code snippets from this project
+            </h2>
+            {thisProject.snippets.map((snippet, index) => {
+              return (
+                <ExpansionPanel title={snippet.title} snippet={snippet.code} key={index} />
+              )
+            })}
+          </section>)
+          : null
+        }
+
+        {thisProject.stack ? (
+          <section>
+            <h2 className='snippetTitle'>
+              Tech stack used in this project
+            </h2>
+            <TechBox stack={thisProject.stack} />
+          </section>)
+          : null
+        }
+
         <section>
           <div className='buttonCont'>
             <Button to='/portfolio'>
               <BackArrow />
               Back to all projects
             </Button>
-            <a href={thisProject.gitHubLink} className='button' target={target} rel="noopener noreferrer">
+
+          {thisProject.gitHubLink ? (
+            <a href={thisProject.gitHubLink} className='button' target={'_blank'} rel="noopener noreferrer">
               View this project on GitHub
-            </a>
+            </a>)
+            : null
+          }
           </div>
         </section>
       </PageContent>

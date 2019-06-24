@@ -1,21 +1,21 @@
 .button {
   padding: 0 1.4em;
   height: 50px;
-  border-radius: 50px;
-  border: 2px solid #323232;
-  background-color: #323232;
+  border-radius: 8px;
+  border: 2px solid #32323200;
+  background-color: #32323225;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ababab;
+  color: #414141;
   text-decoration: none;
   box-sizing: border-box;
-  transition: all 0.3s;
+  transition: all 0.2s;
   white-space: nowrap;
 }
 
 .button:visited {
-  color: #ababab;
+  color: #242424;
 }
 
 .button:hover {

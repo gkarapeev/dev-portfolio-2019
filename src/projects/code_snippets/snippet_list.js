@@ -7,6 +7,7 @@ import bs_carousel from './bs_carousel'
 import manual_form_read from './manual_form_read'
 import filter_state from './filter_state'
 import sorting from './sorting'
+import data_flow from './data_flow'
 
 const snippet_list = {
   ticTacToe: [
@@ -17,7 +18,7 @@ const snippet_list = {
   ],
   appManager: [
     {
-      title: 'Manual handling of form data through vanilla JS (God bless React!)',
+      title: 'Manual handling of form data through vanilla JS',
       code: manual_form_read
     }
   ],
@@ -57,6 +58,12 @@ const snippet_list = {
       code: rest_snippet
     }
   ],
+  portfolio: [
+    {
+      title: 'Smart generation of routes, pages and content. All coming from one place, no code repetition.',
+      code: data_flow
+    }
+  ]
 }
 
 export default snippet_list;

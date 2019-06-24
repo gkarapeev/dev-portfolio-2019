@@ -5,6 +5,8 @@ import ShoppingCards from '../img/project-thumbs/discount_cards.png'
 import InternGram from '../img/project-thumbs/interngram.png'
 import Radix from '../img/project-thumbs/radix.png'
 import Exercise from '../img/project-thumbs/exercise.png'
+import Portfolio from '../img/project-thumbs/portfolio.png'
+import Media from '../img/project-thumbs/media.png'
 
 // Icons
 import HTML from '../img/web-icons/html.svg'
@@ -30,6 +32,7 @@ import MailIcon from '../img/mail.svg'
 import GitIcon from '../img/gh.svg'
 import InIcon from '../img/in.svg'
 import CV from '../img/cv.svg'
+import CV2 from '../img/cv2.svg'
 
 const images = {
   thumbs: {
@@ -38,7 +41,9 @@ const images = {
     ShoppingCards: ShoppingCards,
     InternGram: InternGram,
     Radix: Radix,
-    Exercise: Exercise
+    Exercise: Exercise,
+    Portfolio: Portfolio,
+    Media: Media
   },
   icons: {
     html: HTML,
@@ -63,7 +68,8 @@ const images = {
     MailIcon: MailIcon,
     GitIcon: GitIcon,
     InIcon: InIcon,
-    CV: CV
+    CV: CV,
+    CV2: CV2
   },
 }
 
