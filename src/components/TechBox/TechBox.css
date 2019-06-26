@@ -19,3 +19,30 @@
 .techBox img:last-child {
   margin-right: 0;
 }
+
+@media screen and (max-width: 900px) {
+  .techBox img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .techBox {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .techBox img {
+    width: 45%;
+    height: 45%;
+    margin-bottom: 1.5em;
+  }
+
+  .techBox img:nth-child(2n + 2) {
+    margin-right: 0;
+  }
+
+  .techBox img:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+  }
+}

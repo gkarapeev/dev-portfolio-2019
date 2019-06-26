@@ -15,8 +15,6 @@ const Skills = (props) => {
       <Titlebar name={props.name} />
       <PageContent>
         <section>
-          <h2>About me</h2>
-
           <Paper bg='white' classes={['aboutCard']}>
             <img src={images.contact.Georgi} id='Georgi' alt='Georgi Karapeev' />
             <h2>Hi, I'm Georgi!</h2>

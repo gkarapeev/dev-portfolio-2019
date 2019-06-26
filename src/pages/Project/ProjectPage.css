@@ -56,13 +56,19 @@
   #snippetSection {
     display: none;
   }
-
-  .techBox img {
-    width: 120px !important;
-    height: 120px !important;
-  }
 }
 
 @media screen and (max-width:750px) {
+  .descriptionCont {
+    margin-left: 0;
+  }
 
+  .buttonCont {
+    flex-direction: column;
+  }
+
+  .buttonCont a:nth-child(2) {
+    margin-left: 0;
+    margin-top: 1em;
+  }
 }
