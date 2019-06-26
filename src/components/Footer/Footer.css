@@ -55,3 +55,9 @@
 .social-links img {
   height: 35px;
 }
+
+@media screen and (max-width:900px) {
+  .footerContent {
+    padding: 0 2em;
+  }
+}

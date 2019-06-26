@@ -30,3 +30,8 @@
   box-shadow: 0 0 70px 20px rgba(0, 0, 0, 0.466);
 }
 
+@media screen and (max-width: 900px) {
+  .mask > span {
+    font-size: 1.3rem;
+  }
+}
