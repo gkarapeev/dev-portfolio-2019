@@ -111,10 +111,6 @@ nav ul li span {
   transform: translateX(0);
 }
 
-#outside {
-  display: none;
-}
-
 @media screen and (max-width:900px) {
   .headerContent {
     padding: 0 2em;
@@ -122,6 +118,10 @@ nav ul li span {
 }
 
 @media screen and (max-width:750px) {
+  #outside {
+    display: none;
+  }
+  
   .headerContent {
     position: relative;
   }
