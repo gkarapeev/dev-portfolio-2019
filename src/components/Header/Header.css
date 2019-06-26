@@ -42,6 +42,7 @@ nav {
   font-family: din-next-light;
   font-weight: 400;
   font-size: 20px;
+  z-index: 100;
 }
 
 nav a {
@@ -61,6 +62,7 @@ nav ul {
   margin-block-start: 0;
   margin-block-end: 0;
   padding-inline-start: 0;
+  background-color: #323232;
 }
 
 nav ul li {
@@ -84,4 +86,85 @@ nav ul li span {
   position: absolute;
   left: 0;
   bottom: -5px;
+}
+
+.menuToggle {
+  display: none;
+}
+
+.sliceCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 45%;
+  height: 55%;
+}
+
+.burgerSlice {
+  height: 4px;
+  background-color: #c2c2c2;
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+
+#inside {
+  transform: translateX(0);
+}
+
+#outside {
+  display: none;
+}
+
+@media screen and (max-width:900px) {
+  .headerContent {
+    padding: 0 2em;
+  }
+}
+
+@media screen and (max-width:750px) {
+  .headerContent {
+    position: relative;
+  }
+
+  nav {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    transform: translateX(100%);
+    transition: all 0.5s;
+  }
+
+  nav a {
+    justify-content: center;
+    padding: 0 2em;
+  }
+
+  nav ul {
+    flex-direction: column;
+    height: max-content;
+  }
+
+  nav ul li {
+    height: 75px;
+  }
+
+  .menuToggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 65px;
+    height: 60px;
+    transition: all 0.3s;
+  }
+
+  .menuToggle:hover {
+    background-color: #3d3d3d;
+  }
+
+  .menuToggle:hover .burgerSlice {
+    background-color: white;
+  }
 }

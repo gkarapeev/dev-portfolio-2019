@@ -22,3 +22,33 @@
   margin-left: 5%;
   margin-right: 5%;
 }
+
+@media screen and (max-width:900px) {
+  .projectContainer ul {
+    justify-content: space-around;
+  }
+
+  .projectContainer li {
+    width: 45%;
+  }
+
+  .projectContainer li:nth-child(3n+2) {
+    margin-left: unset;
+    margin-right: unset;
+  }
+}
+
+@media screen and (max-width:750px) {
+  .projectContainer li {
+    width: 100%;
+  }
+
+  .projectContainer li:nth-child(3n+2) {
+    margin-left: unset;
+    margin-right: unset;
+  }
+
+  .projectContainer li a {
+    width: 100%;
+  }
+}

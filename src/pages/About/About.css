@@ -72,3 +72,89 @@
   color: #21C3CF;
   transition: color 0.2s;
 }
+
+@media screen and (max-width: 900px) {
+  .aboutCard {
+    font-size: 1.3em;
+    padding-top: 5em;
+  }
+
+  #Georgi {
+    width: 140px;
+  }
+
+  .contactCont {
+    flex-direction: column;
+    height: unset;
+    padding: 2em 0;
+    font-size: 1.2em;
+  }
+
+  .contactCont a {
+    width: 85%;
+  }
+
+  .contactCont > a {
+    margin-bottom: 1em;
+  }
+
+  .infoCont {
+    width: 90%;
+    height: 160px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .contactRow {
+    width: 50%;
+    justify-content: flex-start;
+  }
+
+  #divider {
+    width: 80%;
+    height: 1px;
+    margin: 1em 0 2em 0;
+  }
+
+  .cv {
+    height: unset;
+  }
+
+}
+
+@media screen and (max-width: 750px) {
+
+  .aboutCard {
+    font-size: 1.6em;
+  }
+
+  .contactCont {
+    font-size: 1.8em;
+  }
+
+  .contactCont > a {
+    width: 70%;
+  }
+
+  .infoCont {
+    height: 350px;
+    width: 70%;
+  }
+
+  .contactRow {
+    width: 100%;
+  }
+
+  .contactItem {
+    margin-left: 1.4em;
+  }
+
+  .contactRow img {
+    width: 40px;
+  }
+
+  #divider {
+    width: 70%;
+    margin: 2em 0 3em 0;
+  }
+}

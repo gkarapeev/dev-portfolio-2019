@@ -2,11 +2,14 @@
 import TicTacToe from '../img/project-thumbs/tic-tac-toe.png'
 import AppManager from '../img/project-thumbs/app_manager.png'
 import ShoppingCards from '../img/project-thumbs/discount_cards.png'
-import InternGram from '../img/project-thumbs/interngram.png'
+import ig from '../img/project-thumbs/ig.png'
 import Radix from '../img/project-thumbs/radix.png'
 import Exercise from '../img/project-thumbs/exercise.png'
 import Portfolio from '../img/project-thumbs/portfolio.png'
 import Media from '../img/project-thumbs/media.png'
+
+// Project Pics
+import InternGram from '../img/project-pics/interngram4.png'
 
 // Icons
 import HTML from '../img/web-icons/html.svg'
@@ -36,6 +39,16 @@ import CV2 from '../img/cv2.svg'
 
 const images = {
   thumbs: {
+    TicTacToe: TicTacToe,
+    AppManager: AppManager,
+    ShoppingCards: ShoppingCards,
+    InternGram: ig,
+    Radix: Radix,
+    Exercise: Exercise,
+    Portfolio: Portfolio,
+    Media: Media
+  },
+  pics: {
     TicTacToe: TicTacToe,
     AppManager: AppManager,
     ShoppingCards: ShoppingCards,

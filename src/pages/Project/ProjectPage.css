@@ -12,6 +12,7 @@
 .descriptionCont {
   margin: 0 0 0 30px;
   text-align: justify;
+  line-height: 1.4em;
 }
 
 .descriptionCont li {
@@ -36,4 +37,32 @@
   height: 16px;
   margin-right: 8px;
   margin-left: -6px;
+}
+
+@media screen and (max-width:900px) {
+  .projectPicContainer {
+    grid-template-columns: 1fr;
+    font-size: 1.3em;
+  }
+
+  .descriptionCont {
+    margin-top: 2.5em;
+  }
+
+  .descriptionCont > p {
+    margin-bottom: 2.5em;
+  }
+
+  #snippetSection {
+    display: none;
+  }
+
+  .techBox img {
+    width: 120px !important;
+    height: 120px !important;
+  }
+}
+
+@media screen and (max-width:750px) {
+
 }

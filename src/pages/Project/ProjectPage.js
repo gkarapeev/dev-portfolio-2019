@@ -2,6 +2,7 @@ import React, {Fragment } from 'react'
 import PageContent from '../../components/PageContent/PageContent'
 import Titlebar from '../../components/Titlebar/Titlebar'
 import Document from '../../components/Document/Document'
+import Paper from '../../components/Paper/Paper'
 import './ProjectPage.css'
 import TechBox from '../../components/TechBox/TechBox'
 import ExpansionPanel from '../../components/ExpansionPanel/ExpansionPanel'
@@ -19,7 +20,13 @@ const ProjectPage = (props) => {
       <PageContent>
         <section>
           <div className='projectPicContainer'>
-            <Document content={ProjectPic} bg='white' target='_blank' classes={['projectDoc']} address={thisProject.url} hoverMsg='Open project in new tab'/>
+            {thisProject.url ?
+              <Document content={ProjectPic} bg='white' target='_blank' classes={['projectDoc']} address={thisProject.url} hoverMsg={thisProject.url.match(/\bgitlab\b|\bgithub\b/) ? 'View project in GitHub': 'Open demo in new tab'}/>
+              :
+              <Paper bg='white' classes={['doc', 'projectDoc']}>
+                <img src={ProjectPic} className='docImg' alt={thisProject.title} />
+              </Paper>
+            }
             <div className='descriptionCont'>
               <h2>
                 About this project
@@ -44,7 +51,7 @@ const ProjectPage = (props) => {
         </section>
 
         {thisProject.snippets ? (
-          <section>
+          <section id='snippetSection'>
             <h2 className='snippetTitle'>
               Some code snippets from this project
             </h2>

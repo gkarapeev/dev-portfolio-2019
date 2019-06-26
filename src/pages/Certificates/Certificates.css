@@ -6,3 +6,26 @@
 .certificate {
   height: 350px;
 }
+
+@media screen and (max-width:900px) {
+  .certificates {
+    flex-direction: column;
+  }
+
+  .certificate {
+    height: unset;
+  }
+
+  .certificates > a {
+    margin-bottom: 2em;
+  }
+  
+  .certificates > a:last-child {
+    margin-bottom: 0;
+  }
+
+  .docImg {
+    width: 100%;
+    height: unset;
+  }
+}
