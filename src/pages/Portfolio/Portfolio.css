@@ -1,3 +1,17 @@
+.intro {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+#introCont {
+  margin-top: -2em;
+  margin-bottom: 2em;
+}
+
+#introCont:last-child {
+  margin-bottom: 3em;
+}
+
 .projectContainer ul {
   height: 100%;
   display: flex;
