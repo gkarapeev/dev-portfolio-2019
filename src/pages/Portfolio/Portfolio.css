@@ -6,11 +6,21 @@
 #introCont {
   margin-top: -2em;
   margin-bottom: 2em;
+  z-index: 10;
 }
 
 #introCont:last-child {
   margin-bottom: 3em;
 }
+
+#introCont a {
+  color: #0078af;
+}
+
+#introCont a:hover {
+  color: #21C3CF;
+}
+
 
 .projectContainer ul {
   height: 100%;

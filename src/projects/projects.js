@@ -8,8 +8,8 @@ const project_list = [
     thumb: images.thumbs.Radix,
     projectPic: images.thumbs.Radix,
     snippets: snippet_list.radix,
-    description: 'This was my first developer project in a team. The brief was to create a web SPA where a teacher can manage their courses and perform CRUD operations and sorting on them. Each course also has its details page where the teacher can also create articles and quizzes associated with the course. The quizzes are made through a Quiz-builder page where one can add questions of type \'Yes/No\', \'Multiple Choice\', and \'Many of many\'. The answer options are also fully editable and one could specify the correct answer(s). The app has login functionality and utilizes protected routes.',
-    features: ['Git rebase & resolving conflicts', 'Google Material UI', 'Login & protected routes', 'Team project'],
+    description: 'Radix is a web SPA where a teacher can manage their courses and perform CRUD operations and sorting on them. Each course has its details page where articles and quizzes can be created and associated with the course. A special Quiz Builder interface is used to create various questions types and answer options. The app has login functionality and utilizes protected routes.',
+    features: ['React hooks', 'Git rebase & resolving conflicts', 'Google Material UI', 'Login & protected routes', 'Made in a team with daily standups'],
     stack: ['html', 'css', 'js', 'ss', 'r', 'gl', 'fig', 'pm'],
     url: 'https://github.com/gkarapeev/Radix',
     gitHubLink: 'https://github.com/gkarapeev/Radix'
