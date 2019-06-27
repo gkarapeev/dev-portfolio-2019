@@ -8,9 +8,6 @@ import Exercise from '../img/project-thumbs/exercise.png'
 import Portfolio from '../img/project-thumbs/portfolio.png'
 import Media from '../img/project-thumbs/media.png'
 
-// Project Pics
-import InternGram from '../img/project-pics/interngram4.png'
-
 // Icons
 import HTML from '../img/web-icons/html.svg'
 import CSS from '../img/web-icons/css.svg'
@@ -52,7 +49,7 @@ const images = {
     TicTacToe: TicTacToe,
     AppManager: AppManager,
     ShoppingCards: ShoppingCards,
-    InternGram: InternGram,
+    InternGram: ig,
     Radix: Radix,
     Exercise: Exercise,
     Portfolio: Portfolio,
