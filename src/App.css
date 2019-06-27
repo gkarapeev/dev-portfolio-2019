@@ -28,6 +28,10 @@ h3 {
   color: #323232;
 }
 
+.b {
+  font-weight: 800;
+}
+
 @media screen and (max-width:940px) {
   .mainCont {
     padding: 0 2em;

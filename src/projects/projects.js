@@ -3,18 +3,6 @@ import snippet_list from './code_snippets/snippet_list'
 
 const project_list = [
   {
-    path: '/portfolio/portfolio',
-    title: 'Software Development Portfolio 2019',
-    thumb: images.thumbs.Portfolio,
-    projectPic: images.thumbs.Portfolio,
-    snippets: snippet_list.portfolio,
-    description: 'Immediately after completing my internship at Prime Holding, I began putting this site together. It has taken me approximately 2 weeks from conceiving the idea, to designing the pages, to implementing the design and deploying the site.',
-    features: ['First fully complete React project', 'Efficient data flow', 'Dynamic routes', 'Smart components', 'SVG animation'],
-    stack: ['html', 'css', 'js', 'ss', 'r', 'gl', 'fig', 'pm'],
-    url: 'https://github.com/gkarapeev/dev-portfolio-2019',
-    gitHubLink: 'https://github.com/gkarapeev/dev-portfolio-2019'
-  },
-  {
     path: '/portfolio/radix',
     title: 'Radix',
     thumb: images.thumbs.Radix,
@@ -83,6 +71,18 @@ const project_list = [
     stack: ['html', 'css', 'js', 'il'],
     url: 'http://gesh.cosmoscube.org/tic-tac-toe/',
     gitHubLink: 'https://github.com/gkarapeev/TicTacToe'
+  },
+  {
+    path: '/portfolio/portfolio',
+    title: 'Software Development Portfolio 2019',
+    thumb: images.thumbs.Portfolio,
+    projectPic: images.thumbs.Portfolio,
+    snippets: snippet_list.portfolio,
+    description: 'Immediately after completing my internship at Prime Holding, I began putting this site together. It has taken me approximately 2 weeks from conceiving the idea, to designing the pages, to implementing the design and deploying the site.',
+    features: ['First fully complete React project', 'Efficient data flow', 'Dynamic routes', 'Smart components', 'SVG animation'],
+    stack: ['html', 'css', 'js', 'ss', 'r', 'gl', 'fig', 'pm'],
+    url: 'https://github.com/gkarapeev/dev-portfolio-2019',
+    gitHubLink: 'https://github.com/gkarapeev/dev-portfolio-2019'
   },
   {
     path: '/portfolio/media-production',
