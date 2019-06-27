@@ -20,7 +20,7 @@ const Skills = (props) => {
             <h2>Hi, I'm Georgi!</h2>
 
             <p>
-              <span class='b'>I'm here to make a statement.</span> I can't impress you with yers of programming behind my back, but I can certainly do that with my dedication, enthusiasm, and bulletproof work ethic.
+              <span class='b'>I'm here to make a statement.</span> I can't impress you with years of programming behind my back, but I can certainly do that with my dedication, enthusiasm, and bulletproof work ethic.
             </p>
             <p>
               Here is my proposition: have a look at my portfolio and <span class='b'>pick a one-week challenge for me which you DOUBT I'd be able to pull off</span>. Anything - pick a discipline which you don't even see in my stack. Give me a week and let me show you that "results-oriented" is not just a phrase I can write down.
