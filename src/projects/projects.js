@@ -100,7 +100,7 @@ const project_list = [
     description: 'This is my media production portfolio. My production & design skills always come in handy when I\'m designing user experiences and interfaces, so although I changed paths, it was still definitely worthwhile.',
     features: ['Made with WIX before I learned to code. :-)'],
     url: 'https://gkarapeev9.wixsite.com/georgi-karapeev',
-    tags: ['React', 'HTML5']
+    tags: ['After Effects', '3DS Max', 'VFX', 'Compositing', 'Animation']
   }
 ]
 
