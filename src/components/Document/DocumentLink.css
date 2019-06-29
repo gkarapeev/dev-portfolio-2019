@@ -53,15 +53,15 @@
 
 @media screen and (max-width: 750px) {
   .maskInfo h1 {
-    font-size: 4em;
+    font-size: 3em;
   }
 
   .tagBox span {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .tag {
-    font-size: 1.4em;
+    font-size: 1em;
     padding: 2px 14px;
     border-radius: 5px;
   }
