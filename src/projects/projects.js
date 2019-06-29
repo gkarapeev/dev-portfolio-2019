@@ -12,7 +12,8 @@ const project_list = [
     features: ['React hooks', 'Git rebase & resolving conflicts', 'Google Material UI', 'Login & protected routes', 'Made in a team with daily standups'],
     stack: ['html', 'css', 'js', 'ss', 'r', 'gl', 'fig', 'pm'],
     url: 'https://github.com/gkarapeev/Radix',
-    gitHubLink: 'https://github.com/gkarapeev/Radix'
+    gitHubLink: 'https://github.com/gkarapeev/Radix',
+    tags: ['React', 'Git', 'Material UI', 'SASS', 'Postman', 'AJAX', 'JWT']
   },
   {
     path: '/portfolio/interngram',
@@ -24,7 +25,8 @@ const project_list = [
     features: ['My first React project!', 'Infinite scroll through posts', 'Visualizing data', 'HTTP Requests'],
     stack: ['html', 'css', 'js', 'ps', 'il', 'fig', 'r'],
     url: 'https://gitlab.com/gkarapeev/ig',
-    gitHubLink: 'https://gitlab.com/gkarapeev/ig'
+    gitHubLink: 'https://gitlab.com/gkarapeev/ig',
+    tags: ['React', 'AJAX', 'Git']
   },
   {
     path: '/portfolio/shopping-cards',
@@ -36,7 +38,8 @@ const project_list = [
     features: ['Vanilla HTML5, CSS3, and JS', 'Sorting and Filtering algorithms', 'Smooth UX', 'Using the browser localStorage', 'Automatic ID generation algorithm', 'Frontend form validation'],
     stack: ['html', 'css', 'js', 'ps', 'il', 'fig'],
     url: 'http://gesh.cosmoscube.org/crud/public/',
-    gitHubLink: 'https://gitlab.com/gkarapeev/discount-cards'
+    gitHubLink: 'https://gitlab.com/gkarapeev/discount-cards',
+    tags: ['Vanilla JS', 'CRUD', 'Filtering']
   },
   {
     path: '/portfolio/application-manager',
@@ -48,7 +51,8 @@ const project_list = [
     features: ['CRUD Operations', 'DOM manipulation', 'HTML Form basics', 'Importing Google fonts'],
     stack: ['html', 'css', 'js'],
     url: 'http://gesh.cosmoscube.org/front-end/',
-    gitHubLink: 'https://github.com/gkarapeev/Personal-Projects/tree/master/Prime%20Holding%20Entry%20Test/Frontend'
+    gitHubLink: 'https://github.com/gkarapeev/Personal-Projects/tree/master/Prime%20Holding%20Entry%20Test/Frontend',
+    tags: ['HTML5', 'CSS3', 'JavaSript', 'CRUD']
   },
   {
     path: '/portfolio/exercise',
@@ -58,7 +62,8 @@ const project_list = [
     snippets: snippet_list.exercise,
     description: 'This one I can\'t fully show because it is part of a real project for a client. It was my first time working qith Bootstrap and jQuery.',
     features: ['Bootstrap', 'jQuery', 'Animated SVG elements', 'Frontend form validation', 'Media queries'],
-    stack: ['html', 'css', 'js', 'bs', 'jq', 'ps', 'il', 'zp']
+    stack: ['html', 'css', 'js', 'bs', 'jq', 'ps', 'il', 'zp'],
+    tags: ['jQuery', 'Bootstrap', 'HTML5', 'SVG']
   },
   {
     path: '/portfolio/tic-tac-toe',
@@ -70,11 +75,13 @@ const project_list = [
     features: ['Objects', 'Object constructors'],
     stack: ['html', 'css', 'js', 'il'],
     url: 'http://gesh.cosmoscube.org/tic-tac-toe/',
-    gitHubLink: 'https://github.com/gkarapeev/TicTacToe'
+    gitHubLink: 'https://github.com/gkarapeev/TicTacToe',
+    tags: ['HTML5', 'JavaScript', 'DOM Basics']
   },
   {
     path: '/portfolio/portfolio',
     title: 'Software Development Portfolio 2019',
+    thumbTitle: 'Portfolio 2019',
     thumb: images.thumbs.Portfolio,
     projectPic: images.thumbs.Portfolio,
     snippets: snippet_list.portfolio,
@@ -82,7 +89,8 @@ const project_list = [
     features: ['First fully complete React project', 'Efficient data flow', 'Dynamic routes', 'Smart components', 'SVG animation'],
     stack: ['html', 'css', 'js', 'ss', 'r', 'gl', 'fig', 'pm'],
     url: 'https://github.com/gkarapeev/dev-portfolio-2019',
-    gitHubLink: 'https://github.com/gkarapeev/dev-portfolio-2019'
+    gitHubLink: 'https://github.com/gkarapeev/dev-portfolio-2019',
+    tags: ['React', 'Git', 'UX/UI Design', 'Smart Components', 'SASS']
   },
   {
     path: '/portfolio/media-production',
@@ -91,7 +99,8 @@ const project_list = [
     projectPic: images.thumbs.Media,
     description: 'This is my media production portfolio. My production & design skills always come in handy when I\'m designing user experiences and interfaces, so although I changed paths, it was still definitely worthwhile.',
     features: ['Made with WIX before I learned to code. :-)'],
-    url: 'https://gkarapeev9.wixsite.com/georgi-karapeev'
+    url: 'https://gkarapeev9.wixsite.com/georgi-karapeev',
+    tags: ['React', 'HTML5']
   }
 ]
 

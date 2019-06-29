@@ -22,7 +22,7 @@ const Skills = (props) => {
               {Projects.map((proj, index) => {
                 return (
                   <li key={index}>
-                    <DocumentLink bg='white' content={proj.thumb} path={proj.path} alt={proj.title} hoverMsg='View Project'/>
+                    <DocumentLink bg='white' content={proj.thumb} path={proj.path} alt={proj.title} tags={proj.tags} title={proj.title} thumbTitle={proj.thumbTitle}/>
                   </li>
                 )
               })}

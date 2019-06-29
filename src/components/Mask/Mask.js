@@ -4,7 +4,10 @@ import './Mask.css'
 const Mask = (props) => {
   return(
     <div className='mask'>
-      <span>{props.hoverMsg}</span>
+      <div className='maskInfo'>
+        {props.children}
+        {props.hoverMsg ? <span className='hoverMsg'>{props.hoverMsg}</span> : null}
+      </div>
     </div>
   )
 };

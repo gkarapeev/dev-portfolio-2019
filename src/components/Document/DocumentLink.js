@@ -15,7 +15,19 @@ const DocumentLink = (props) => {
       <Paper bg={props.bg} classes={classes}>
         <img src={props.content} alt={props.alt} className='docLinkImg'/>
       </Paper>
-      <Mask hoverMsg={props.hoverMsg} />
+      <Mask hoverMsg={props.hoverMsg} tags={props.tags} title={props.title} >
+        <h1>
+          {props.thumbTitle ? props.thumbTitle : props.title}
+        </h1>
+        <div className='h-Divider'></div>
+        <div className='tagBox'>
+          {props.tags.map((tag, index) => {
+            return (
+              <span className='tag' key={index}>{tag}</span>
+            )
+          })}
+        </div>
+      </Mask>
     </Link>
   )
 };
