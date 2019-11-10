@@ -7,7 +7,7 @@ import Card from '../../components/Card/Card'
 import './About.css'
 
 import images from '../../img_index/images'
-import CV_PDF from '../../documents/Georgi_Karapeev_CV_2019.pdf'
+import CV_PDF from '../../documents/Georgi_Karapeev_CV_November_2019.pdf'
 
 const Skills = (props) => {
   return (

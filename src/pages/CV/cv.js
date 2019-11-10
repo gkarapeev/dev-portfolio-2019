@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import './cv.css'
 import Titlebar from '../../components/Titlebar/Titlebar'
 import PageContent from '../../components/PageContent/PageContent'
-import CV_PDF from '../../documents/Georgi_Karapeev_CV_2019.pdf'
+import CV_PDF from '../../documents/Georgi_Karapeev_CV_November_2019.pdf'
 import images from '../../img_index/images'
 import Paper from '../../components/Paper/Paper'
 

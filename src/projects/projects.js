@@ -3,6 +3,32 @@ import snippet_list from './code_snippets/snippet_list'
 
 const project_list = [
   {
+    path: '/portfolio/timeline',
+    title: 'Timeline',
+    thumb: images.thumbs.Timeline,
+    projectPic: images.thumbs.Timeline,
+    snippets: snippet_list.timeline,
+    description: 'This is a really interesting one, because I had the chance to play with mathematically describing the pan & zoom feature. On the screen I can only tell p5.js to draw a shape at given X and Y coordinates, so I had to research how to implement a world-space / screen-space paradigm with functions to convert the coordinates of each object back and forth between the two. The next thing I\'ll be doing is to implement a logarithmic zoom factor, because the perceived zoom speed changes as we play around.',
+    features: ['Custom pan & zoom', 'World space & screen space paradigm', 'HTML Canvas', 'UI Prototype: tiny.cc/g-timeline'],
+    stack: ['p5', 'js'],
+    url: 'http://timeline.gkarapeev.eu/',
+    gitHubLink: 'https://github.com/gkarapeev/Timeline/',
+    tags: ['Graphics Programming', 'p5.js', 'HTML Canvas'],
+  },
+  {
+    path: '/portfolio/custom-form-control',
+    title: 'Custom Form Control',
+    thumb: images.thumbs.FormControl,
+    projectPic: images.thumbs.FormControl,
+    snippets: snippet_list.custom_form_control,
+    description: 'This is just a little exercise I did in my free time to experiment a bit with creating custom form controls.',
+    features: ['Angular Reactive Forms', 'Control Value Accessor'],
+    stack: ['ng', 'ts'],
+    url: 'https://stackblitz.com/edit/gesh-color-picker',
+    gitHubLink: 'https://stackblitz.com/edit/gesh-color-picker',
+    tags: ['Reactive Forms', 'Reactive Forms', 'Control Value Accessor'],
+  },
+  {
     path: '/portfolio/radix',
     title: 'Radix',
     thumb: images.thumbs.Radix,

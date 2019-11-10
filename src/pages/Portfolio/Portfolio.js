@@ -12,7 +12,7 @@ const Skills = (props) => {
       <Titlebar name={props.name} />
       <PageContent>
       <div id='introCont'>
-        <p className='intro'>Hi, I'm Georgi and I'm a frontend web software developer with React.</p>
+        <p className='intro'>Hi, I'm Georgi and I'm a frontend web developer with React.</p>
         <p className='intro'>Everything you see here is done 100% individually by me, with the exception of 'Radix', which was a team project.</p>
         <p className='intro'><span className='b'>Be sure to check out the <Link to='/about'><span className='with-bg'>about</span></Link> page where I have a special offer for you!</span> :)</p>
       </div>

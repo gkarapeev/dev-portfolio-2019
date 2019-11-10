@@ -7,6 +7,8 @@ import Radix from '../img/project-thumbs/radix.png'
 import Exercise from '../img/project-thumbs/exercise.png'
 import Portfolio from '../img/project-thumbs/portfolio.png'
 import Media from '../img/project-thumbs/media.png'
+import Timeline from '../img/project-thumbs/timeline.png'
+import FormControl from '../img/project-thumbs/form-control.png'
 
 // Icons
 import HTML from '../img/web-icons/html.svg'
@@ -23,6 +25,9 @@ import Postman from '../img/web-icons/postman.svg'
 import Photoshop from '../img/web-icons/photoshop.png'
 import Illustrator from '../img/web-icons/illustrator.png'
 import Zeplin from '../img/web-icons/zeplin.svg'
+import Typescript from '../img/web-icons/ts.png'
+import P5 from '../img/web-icons/p5.png'
+import Angular from '../img/web-icons/angular.svg'
 
 // Contact
 import Georgi from '../img/georgi-karapeev.jpg'
@@ -36,6 +41,8 @@ import CV2 from '../img/cv2.svg'
 
 const images = {
   thumbs: {
+    Timeline: Timeline,
+    FormControl: FormControl,
     TicTacToe: TicTacToe,
     AppManager: AppManager,
     ShoppingCards: ShoppingCards,
@@ -46,6 +53,8 @@ const images = {
     Media: Media
   },
   pics: {
+    Timeline: Timeline,
+    FormControl: FormControl,
     TicTacToe: TicTacToe,
     AppManager: AppManager,
     ShoppingCards: ShoppingCards,
@@ -69,7 +78,10 @@ const images = {
     ss: SASS,
     ps: Photoshop,
     il: Illustrator,
-    zp: Zeplin
+    zp: Zeplin,
+    p5: P5,
+    ts: Typescript,
+    ng: Angular
   },
   contact: {
     Georgi: Georgi,

@@ -8,6 +8,8 @@ import manual_form_read from './manual_form_read'
 import filter_state from './filter_state'
 import sorting from './sorting'
 import data_flow from './data_flow'
+import control_value_accessor from './control_value_accessor'
+import timeline_sketch from './timeline_sketch'
 
 const snippet_list = {
   ticTacToe: [
@@ -62,6 +64,18 @@ const snippet_list = {
     {
       title: 'Smart generation of routes, pages and content. All coming from one place, no code repetition.',
       code: data_flow
+    }
+  ],
+  custom_form_control: [
+    {
+      title: 'Control Value Accessor',
+      code: control_value_accessor
+    }
+  ],
+  timeline: [
+    {
+      title: 'Timeline',
+      code: timeline_sketch
     }
   ]
 }
