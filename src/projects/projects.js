@@ -11,7 +11,7 @@ const project_list = [
     description: 'This is a really interesting one, because I had the chance to play with mathematically describing the pan & zoom feature. On the screen I can only tell p5.js to draw a shape at given X and Y coordinates, so I had to research how to implement a world-space / screen-space paradigm with functions to convert the coordinates of each object back and forth between the two. The next thing I\'ll be doing is to implement a logarithmic zoom factor, because the perceived zoom speed changes as we play around.',
     features: ['Custom pan & zoom', 'World space & screen space paradigm', 'HTML Canvas', 'UI Prototype: tiny.cc/g-timeline'],
     stack: ['p5', 'js'],
-    url: 'http://timeline.gkarapeev.eu/',
+    url: 'https://g-timeline.herokuapp.com/',
     gitHubLink: 'https://github.com/gkarapeev/Timeline/',
     tags: ['Graphics Programming', 'p5.js', 'HTML Canvas'],
   },
